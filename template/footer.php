@@ -72,13 +72,13 @@
                         Ploenchit Road, Lumpini, Pathumwan<br>
                         Bangkok Thailand 10330
                     </p class="animate fadeIn">
-                    <a href="tel:+6629998586" class="weight-bold animate fadeIn">+66 (0) 2 999 8586</a>
-                    <a href="mailto:info@valanti.com" class="weight-bold animate fadeIn">info@valanti.com</a>
+                    <a href="tel:+6629998586" class="weight-semibold animate fadeIn">+66 (0) 2 999 8586</a>
+                    <a href="mailto:info@valanti.com" class="weight-semibold animate fadeIn">info@valanti.com</a>
                 </address>
                 <div class="links">
                     <ul class="pages">
                         <li class="animate fadeIn"><a class="more-opacity-hover" href="<?php echo $root; ?>development.php">Developments</a></li>
-                        <li class="animate fadeIn"><a class="more-opacity-hover" href="<?php echo $root; ?>about-us.php">About Us</a></li>
+                        <li class="animate fadeIn"><a class="more-opacity-hover" href="<?php echo $root; ?>about.php">About Us</a></li>
                         <li class="animate fadeIn"><a class="more-opacity-hover" href="<?php echo $root; ?>leadership.php">Leadership</a></li>
                         <li class="animate fadeIn"><a class="more-opacity-hover" href="<?php echo $root; ?>page.php">Terms & Conditions</a></li>
                         <li class="animate fadeIn"><a class="more-opacity-hover" href="<?php echo $root; ?>page.php">Privacy Policy</a></li>
@@ -99,7 +99,10 @@
 <div id="clipboard" style="display:none;">Copied</div>
 </div><!-- CLOSE:#page -->
 
-<?php //if($page_index) { include($root."include/_wp-code/wp-cookie-law-info-bar.php"); } 
+<?php if ($page_index) {
+    include($root . "include/_wp-code/wp-cookie-law-info-bar.php");
+    // include($root . "include/_wp-code/wp-cookie-preference.php");
+}
 ?>
 
 <div id="page-message">
@@ -120,6 +123,10 @@
 <script src="<?php echo $root; ?>assets/plugin/splitting/splitting.min.js"></script>
 <script src="<?php echo $root; ?>assets/plugin/imagesLoaded/imagesLoaded.pkgd.min.js"></script>
 <script src="<?php echo $root; ?>assets/plugin/masonry/masonry.pkgd.min.js"></script>
+<script src="<?php echo $root; ?>assets/plugin/gsap/gsap.min.js"></script>
+<script src="<?php echo $root; ?>assets/plugin/gsap/ScrollTrigger.min.js"></script>
+<script src="<?php echo $root; ?>assets/plugin/gsap/ScrollToPlugin.min.js"></script>
+<script src="<?php echo $root; ?>assets/plugin/gsap/Flip.min.js"></script>
 
 <!-- JS:CONFIG -->
 <script src="<?php echo $root; ?>assets/js/common/theme.js?v=<?php echo time(); ?>"></script>
@@ -127,6 +134,8 @@
 <script src="<?php echo $root; ?>assets/js/common/util.js?v=<?php echo time(); ?>"></script>
 <script src="<?php echo $root; ?>assets/js/index.js?v=<?php echo time(); ?>"></script>
 <script src="<?php echo $root; ?>assets/js/development.js?v=<?php echo time(); ?>"></script>
+<script src="<?php echo $root; ?>assets/js/about.js?v=<?php echo time(); ?>"></script>
+<script src="<?php echo $root; ?>assets/js/contact.js?v=<?php echo time(); ?>"></script>
 
 
 </body>

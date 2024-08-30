@@ -3,7 +3,7 @@
 <?php include($root . "header.php"); ?>
 <main id="main" class="main development">
     <section class="sc development-hero">
-        <div class="sc-inner">
+        <div class="sc-inner first-sc">
             <div class="hero-text a-center">
                 <h1 class="size-h1-h2-m font-heading letter-spacing-title animate fadeIn">DEVELOPMENTS</h1>
                 <p class="margin-top-20 size-h4 letter-spacing-title-des animate fadeIn">Crafting experiences of unparalleled grandeur.</p>
@@ -125,6 +125,7 @@
             </div>
         </div>
     </section>
+
 </main>
 
 <?php include($root . "footer.php"); ?>

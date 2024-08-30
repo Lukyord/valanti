@@ -8,3 +8,9 @@
     justify-content: center;
     align-items: center;
 }
+
+.misc-hero .hero-text > p {
+    max-width: 84.6153846154%;
+    margin-left: auto;
+    margin-right: auto;
+}

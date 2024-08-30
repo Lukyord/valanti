@@ -4,6 +4,7 @@
 .index-hero {
     min-height: 100svh;
     overflow: hidden;
+    position: relative;
 }
 
 .index-hero:before {
@@ -11,7 +12,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     height: 100%;
     background: linear-gradient(
             0deg,
@@ -26,20 +27,20 @@
     z-index: 5;
 }
 
+.index-hero .sc-inner {
+    min-height: 100svh;
+    z-index: 6;
+    display: flex;
+    flex-direction: column;
+    pointer-events: none;
+}
+
 .index-hero .hero-bg {
-    width: 100%;
+    width: 100vw;
     height: 100%;
     top: 0;
     left: 0;
     position: absolute;
-}
-
-.index-hero .sc-inner {
-    min-height: 100svh;
-    position: relative;
-    z-index: 6;
-    display: flex;
-    flex-direction: column;
 }
 
 .index-hero .hero-text {
@@ -50,6 +51,7 @@
     color: var(--color-white);
     text-wrap: nowrap;
     padding: var(--header-height) 0;
+    pointer-events: none;
 }
 
 .index-hero .locations {
@@ -60,6 +62,7 @@
     flex-wrap: wrap;
     grid-gap: var(--spacing-40);
     padding-bottom: var(--spacing-64);
+    pointer-events: all;
     --item-width: min(14.6990740741vw, 254px);
     --item-height: min(4.4560185185vw, 77px);
 }
@@ -112,13 +115,12 @@
         --item-height: min(12.05128205128vw, 47px);
     }
 
-    .index-hero .locations.locations.less-than-3 {
+    .index-hero .locations.locations.less-than-4 {
         justify-content: center;
     }
 
     .index-hero .locations .location {
         width: calc(50% - var(--spacing-40));
-
         height: auto;
         justify-content: end;
     }

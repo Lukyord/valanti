@@ -21,7 +21,7 @@
                     <div class="text">
                         <h3 class="animate fadeIn size-h3 font-heading letter-spacing-title-sm"><?php echo $development_project["topic"] ?></h3>
                         <p class="animate fadeIn margin-top-24"><?php echo $development_project["topic-description"] ?></p>
-                        <ul class="animate fadeIn margin-top-50">
+                        <ul class="animate fadeIn">
                             <li><a href="javascript:;" onclick="fbShare()" class="more-opacity-hover"><i class="ic ic-facebook"></i></a></li>
                             <li><a href="javascript:;" onclick="tweetShare()" class="more-opacity-hover"><i class="ic ic-twitter"></i></a></li>
                         </ul>

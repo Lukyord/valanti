@@ -47,6 +47,11 @@ $page_index = ($page == basename(dirname($_SERVER['PHP_SELF']), "/") || $page ==
     <link rel="stylesheet" href="<?php echo $root; ?>assets/css/index.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="<?php echo $root; ?>assets/css/development.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="<?php echo $root; ?>assets/css/misc.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="<?php echo $root; ?>assets/css/about.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="<?php echo $root; ?>assets/css/news.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="<?php echo $root; ?>assets/css/contact.css?v=<?php echo time(); ?>">
+
+
     <!-- JS:LIBRARY -->
     <script src="<?php echo $root; ?>assets/js/library/modernizr-custom.js"></script>
     <script src="<?php echo $root; ?>assets/js/library/jquery-3.6.0.min.js"></script>
@@ -99,7 +104,7 @@ $page_index = ($page == basename(dirname($_SERVER['PHP_SELF']), "/") || $page ==
                     <div class="panel-wrap">
                         <div class="panel-body">
                             <ul class="menu font-heading">
-                                <li><a href="<?php echo $root; ?>about-us.php">ABOUT US</a></li>
+                                <li><a href="<?php echo $root; ?>about.php">ABOUT US</a></li>
                                 <li><a href="<?php echo $root; ?>development.php">DEVELOPMENTS</a></li>
                                 <li><a href="<?php echo $root; ?>leadership.php">LEADERSHIP</a></li>
                                 <li><a href="<?php echo $root; ?>news.php">IN THE NEWS</a></li>

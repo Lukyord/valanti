@@ -33,6 +33,7 @@
                         "logo" => "./assets/svg/swan-lake-logo-white.svg",
                         "description" => "A beacon of luxury, mirroring the serenity and allure of the legendary lake."
                     ),
+
                 );
 
                 foreach ($location_arr as $location) {
@@ -48,7 +49,7 @@
             <div class="awards">
                 <div class="award animate fadeIn">
                     <div class="image">
-                        <img src="./assets/img/design/award1.svg" alt="award1">
+                        <img src="./assets/svg/award1.svg" alt="award1">
                     </div>
                     <div class="text size-description2 a-center">
                         <h6 class="weight-bold">InterContinental Khao Yai Resort</h6>
@@ -60,7 +61,7 @@
                 </div>
                 <div class="award animate fadeIn">
                     <div class="image">
-                        <img src="./assets/img/design/award2.svg" alt="award2">
+                        <img src="./assets/svg/award2.svg" alt="award2">
                     </div>
                     <div class="text size-description2 a-center">
                         <h6 class="weight-bold">InterContinental Khao Yai Resort</h6>
@@ -72,7 +73,7 @@
                 </div>
                 <div class="award animate fadeIn">
                     <div class="image">
-                        <img src="./assets/img/design/award3.svg" alt="award3">
+                        <img src="./assets/svg/award3.svg" alt="award3">
                     </div>
                     <div class="text size-description2 a-center">
                         <h6 class="weight-bold">Swan Lake Residences Khao Yai</h6>
@@ -84,7 +85,7 @@
                 </div>
                 <div class="award animate fadeIn">
                     <div class="image">
-                        <img src="./assets/img/design/award4.svg" alt="award4">
+                        <img src="./assets/svg/award4.svg" alt="award4">
                     </div>
                     <div class="text size-description2 a-center">
                         <h6 class="weight-bold">Rosewood Luang Prabang</h6>

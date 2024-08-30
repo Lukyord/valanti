@@ -3,7 +3,7 @@ jQuery(function ($) {
     // ANIMATE
     $('.entry-fadeIn > *:not([class*="wp-block-"])').addClass("animate fadeIn");
     $(
-        '.entry-fadeIn *:is([class*="wp-block-"]) > *:not([class*="wp-block-"], ul, ol), .entry-fadeIn li'
+        '.entry-fadeIn *:is([class*="wp-block-"]) > *:not([class*="wp-block-"], ul, ol), .entry-fadeIn li, .entry-fadeIn .wp-block-heading, .entry-fadeIn .wp-block-separator'
     ).addClass("animate fadeIn");
 
     $(".accordion .animate").each(function () {
@@ -144,6 +144,15 @@ jQuery(function ($) {
             $result.append($match);
 
             $result.append(text.substring(match + term.length));
+
+            var html = $result.html();
+            if (html.includes("Please Specify")) {
+                var newHtml = html.replace(
+                    "Please Specify",
+                    '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="opacity-05">Please Specify</span>'
+                );
+                $result.html(newHtml);
+            }
 
             return $result;
         }
@@ -1342,6 +1351,21 @@ jQuery(function ($) {
             updateDarkBgSection();
         });
     });
+});
+
+// COOKIE STYLING
+jQuery(function ($) {
+    if ($(".cky-notice-des").length) {
+        var $paragraph = $(".cky-notice-des p");
+
+        var paragraphHtml = $paragraph.html();
+
+        var updatedHtml = paragraphHtml.replace(
+            "This site uses cookies.",
+            "<span class='cookie-heading font-heading letter-spacing-title-sm margin-bottom-24'>THIS WEBSITE UTILIES COOKIES</span>"
+        );
+        $paragraph.html(updatedHtml);
+    }
 });
 
 // EFFECT
