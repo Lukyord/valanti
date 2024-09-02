@@ -1,11 +1,11 @@
-<section id="#<?php echo $development_project["project-name"] ?>" class="sc development-template <?php echo $development_project["image-side"] . ' ' . $development_project["template"]; ?>">
+<section id="<?php echo $development_project["project-name"] ?>" class="sc development-template <?php echo $development_project["image-side"] . ' ' . $development_project["template"]; ?>">
     <div class="sc-inner">
         <div class="heading">
             <div class="logo">
                 <div class="logo-image animate fadeIn">
                     <img src="<?php echo $development_project["logo"] ?>" alt="<?php echo $development_project["project-name"] ?>">
                 </div>
-                <p class="animate fadeIn"><span class="weight-bold"><?php echo $development_project["location"] ?></span>, <?php echo $development_project["country"] ?></p>
+                <p class="animate fadeIn"><strong><?php echo $development_project["location"] ?></strong>, <?php echo $development_project["country"] ?></p>
             </div>
             <div class="description animate fadeIn">
                 <?php echo $development_project["description"] ?>

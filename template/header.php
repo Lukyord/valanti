@@ -74,7 +74,7 @@ $page_index = ($page == basename(dirname($_SERVER['PHP_SELF']), "/") || $page ==
                         <a href="<?php echo $root; ?>contact.php">Contact</a>
                     </div>
                     <div class="logo">
-                        <a class="link-overlay" href="<?php echo $root; ?>index.php">&nbsp;</a>
+                        <a class="link-overlay" href="<?php echo $root; ?>index.php" aria-label="Go back to homepage">&nbsp;</a>
                         <img src="./assets/svg/logo.svg" alt="logo">
                     </div>
                     <div class="header-menu-ctrl">
@@ -88,33 +88,23 @@ $page_index = ($page == basename(dirname($_SERVER['PHP_SELF']), "/") || $page ==
                         </a>
                     </div>
                 </nav>
-
-                <style>
-                    .header-menu {
-                        --menu-bg: url(../../assets/img/design/menu-bg.png);
-                    }
-
-                    @media (max-width: 991px) {
-                        .header-menu {
-                            --menu-bg: url(../../assets/img/design/menu-bg-m.png);
-                        }
-                    }
-                </style>
                 <div class="header-menu">
-                    <div class="panel-wrap">
-                        <div class="panel-body">
-                            <ul class="menu font-heading">
-                                <li><a href="<?php echo $root; ?>about.php">ABOUT US</a></li>
-                                <li><a href="<?php echo $root; ?>development.php">DEVELOPMENTS</a></li>
-                                <li><a href="<?php echo $root; ?>leadership.php">LEADERSHIP</a></li>
-                                <li><a href="<?php echo $root; ?>news.php">IN THE NEWS</a></li>
-                                <li class="hidden-device-md"><a href="<?php echo $root; ?>contact.php">CONTACT</a></li>
+                    <div class="panel-scroll" data-lenis-prevent>
+                        <div class="panel-wrap">
+                            <div class="panel-body">
+                                <ul class="menu font-heading">
+                                    <li><a href="<?php echo $root; ?>about.php">ABOUT US</a></li>
+                                    <li><a href="<?php echo $root; ?>development.php">DEVELOPMENTS</a></li>
+                                    <li><a href="<?php echo $root; ?>leadership.php">LEADERSHIP</a></li>
+                                    <li><a href="<?php echo $root; ?>news.php">IN THE NEWS</a></li>
+                                    <li class="hidden-device-md"><a href="<?php echo $root; ?>contact.php">CONTACT</a></li>
+                                </ul>
+                            </div>
+                            <ul class="panel-footer">
+                                <li><a href="<?php echo $root; ?>page.php">Terms & Conditions</a></li>
+                                <li><a href="<?php echo $root; ?>page.php">Privacy Policy</a></li>
                             </ul>
                         </div>
-                        <ul class="panel-footer">
-                            <li><a href="<?php echo $root; ?>page.php">Terms & Conditions</a></li>
-                            <li><a href="<?php echo $root; ?>page.php">Privacy Policy</a></li>
-                        </ul>
                     </div>
                 </div>
             </div>

@@ -168,11 +168,13 @@ jQuery(document).ready(function ($) {
                                     $(horizontalSections).addClass(
                                         "in-progress"
                                     );
+                                    $("html").addClass("header-hidden");
                                 } else {
                                     arrowsPanel.removeClass("visible");
                                     $(horizontalSections).removeClass(
                                         "in-progress"
                                     );
+                                    $("html").removeClass("header-hidden");
                                 }
 
                                 if (progress >= 0.1) {

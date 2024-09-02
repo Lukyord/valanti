@@ -37,6 +37,10 @@
         min(6.9444444444vw, var(--spacing-120)) !important;
     transition: var(--duration) var(--timing-function) !important;
 }
+
+.cky-notice {
+    position: relative !important;
+}
 .cky-notice .cky-title,
 .cky-notice-group,
 .cky-notice-des,
@@ -47,14 +51,15 @@
     color: inherit !important;
 }
 .cky-notice .cky-title {
-    margin: 0 !important;
     font-family: var(--font-heading) !important;
-    font-style: italic !important;
-    font-size: var(--font-size-topic) !important;
-    line-height: var(--line-height-topic) !important;
-    text-transform: none !important;
+    font-style: normal !important;
+    text-transform: uppercase !important;
     letter-spacing: var(--letter-spacing) !important;
-    color: var(--color-theme) !important;
+    color: var(--color-white) !important;
+    display: block;
+    font-size: var(--font-size-h3) !important;
+    line-height: var(--line-height-h3) !important;
+    padding-bottom: var(--spacing-24) !important;
 }
 .cky-notice .cky-title:not(:last-child) {
     margin-bottom: var(--spacing-2xs) !important;
@@ -71,7 +76,7 @@
 }
 
 .cky-notice-des {
-    width: 63.4615384615% !important;
+    width: min(63.4615384615%, 525px) !important;
     font-size: var(--font-size-description2) !important;
     line-height: var(--line-height-description2) !important;
 }
@@ -97,6 +102,10 @@
     opacity: var(--opacity) !important;
 }
 .cky-notice-btn-wrapper {
+    position: absolute !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    right: 0 !important;
     width: auto !important;
     max-width: 100% !important;
     margin: 0 !important;
@@ -105,7 +114,7 @@
     align-items: center !important;
     justify-content: center !important;
     text-align: center !important;
-    grid-gap: var(--spacing-2xs) !important;
+    grid-gap: var(--spacing-8) !important;
 }
 .cky-notice-btn-wrapper .cky-btn {
     text-decoration: none !important;
@@ -208,12 +217,6 @@
     order: 0;
 }
 
-.cky-notice-des .cookie-heading {
-    display: block;
-    font-size: var(--font-size-h3) !important;
-    line-height: var(--line-height-h3) !important;
-}
-
 @media (max-width: 991px) {
     .cky-notice-group {
         flex-direction: column !important;
@@ -225,6 +228,7 @@
     }
 
     .cky-notice-btn-wrapper {
+        position: static !important;
         display: flex !important;
         justify-content: start !important;
         grid-gap: var(--spacing-16) !important;

@@ -34,20 +34,20 @@
                         <img src="./assets/img/design/about4.png" alt="about image 4" class="animate fadeIn">
                         <img src="./assets/img/design/about5.png" alt="about image 5" class="animate fadeIn">
                     </div>
-                    <p class="description-text animate fadeIn">Including <span class="weight-semibold">Rosewood Luang Prabang, InterContinental Khao Yai.</span></p>
+                    <p class="description-text animate fadeIn">Including <strong>Rosewood Luang Prabang, InterContinental Khao Yai.</strong></p>
                 </div>
                 <div class="image-description">
                     <div class="image-with-text animate fadeIn">
                         <img src="./assets/img/design/about2.png" alt="about image 2">
                         <h3 class="font-heading letter-spacing-title-sm size-h3 c-white">LUXURY RESIDENTIAL<br>DEVELOPMENTS</h3>
                     </div>
-                    <p class="description-text animate fadeIn"><span class="weight-semibold">Swan Lake Residences Khao Yai</span> - an award-winning residential
+                    <p class="description-text animate fadeIn"><strong>Swan Lake Residences Khao Yai</strong> - an award-winning residential
                         development project.</p>
                 </div>
             </div>
             <div class="footer">
                 <div class="comp-1">
-                    <p class="animate fadeIn"><span class="weight-semibold">With over 50 years of experience</span>
+                    <p class="animate fadeIn"><strong>With over 50 years of experience</strong>
                         in the retail industry, VALANTI Group
                         has been involved in some of the
                         most important ventures in Thailand.</p>
@@ -93,7 +93,7 @@
                 <p>Visionary beginnings.</p>
             </div>
             <div class="title recent">
-                <h2 class="size-h2 font-heading letter-spacing-title-md">Our Milestones</h2>
+                <h2 class="size-h2 font-heading letter-spacing-title-md">OUR MILESTONES</h2>
                 <p>Celebrating a legacy of excellence.</p>
             </div>
             <div class="title present">
@@ -105,7 +105,7 @@
                     <div class="wrapper">
                         <p>
                             Founded as a land bank, ran by the<br>
-                            Udomkunnatum Family for <span class="weight-semibold">over 30 years...</span>
+                            Udomkunnatum Family for <strong>over 30 years...</strong>
                         </p>
                         <div class="images">
                             <div class="content-image">
@@ -132,7 +132,7 @@
                     <div class="text">
                         <h1 class="size-h1 font-heading letter-spacing-title">2016</h1>
                         <p>
-                            Launched <span class="weight-semibold">Swan Lake Residences Khao Yai:</span> Embracing nature's serenity in luxurious living - a perfect blend of tranquility and elegance in the heart of Khao Yai.
+                            Launched <strong>Swan Lake Residences Khao Yai:</strong> Embracing nature's serenity in luxurious living - a perfect blend of tranquility and elegance in the heart of Khao Yai.
                         </p>
                     </div>
                 </div>
@@ -147,7 +147,7 @@
                         <div class="content-image">
                             <img src="./assets/img/design/template2-image2.png" alt="template2 image2">
                         </div>
-                        <p>Unveiled <span class="weight-semibold">Rosewood Luang Prabang:</span> A serene luxury retreat that harmoniously blends rich cultural heritage with breathtaking natural beauty.</p>
+                        <p>Unveiled <strong>Rosewood Luang Prabang:</strong> A serene luxury retreat that harmoniously blends rich cultural heritage with breathtaking natural beauty.</p>
                     </div>
                 </div>
             </div>
@@ -159,20 +159,20 @@
                             <img src="./assets/img/design/template3-image1.png" alt="template3 image1">
                             <h1 class="size-h1 font-heading letter-spacing-title">2020</h1>
                         </div>
-                        <p>Elysian Development partners with IHG to manage the 61-room <span class="weight-semibold">InterContinental Khao Yai</span> resort, elevating luxury hospitality in a stunning natural setting.</p>
+                        <p>Elysian Development partners with IHG to manage the 61-room <strong>InterContinental Khao Yai</strong> resort, elevating luxury hospitality in a stunning natural setting.</p>
                     </div>
                 </div>
             </div>
             <div class="horizontal-scroll-content template-4" data-timeline="recent">
                 <div class="center">
                     <div class="wrapper">
-                        <p>Collaborated with award-winning architect and designer <span class="weight-semibold">Bill Bensley</span> on this one-of-a-kind destination.
+                        <p>Collaborated with award-winning architect and designer <strong>Bill Bensley</strong> on this one-of-a-kind destination.
                             <br><br>
-                            Bill has also designed our award-winning <span class="weight-semibold">Rosewood Luang Prabang</span> property.
+                            Bill has also designed our award-winning <strong>Rosewood Luang Prabang</strong> property.
                         </p>
                         <div class="template-title">
                             <h1 class="size-h1 font-heading letter-spacing-title">2022</h1>
-                            <p>Launch of <span class="weight-semibold">InterContinental Khao Yai</span> - a luxurious 61-room resort that combines modern elegance with the serene beauty of the Khao Yai landscape.</p>
+                            <p>Launch of <strong>InterContinental Khao Yai</strong> - a luxurious 61-room resort that combines modern elegance with the serene beauty of the Khao Yai landscape.</p>
                         </div>
                         <p>Turning abandoned train cars procured from across Thailand into luxury suites.</p>
                         <div class="content-image">
@@ -203,7 +203,7 @@
                             <img src="./assets/svg/award3.svg" alt="award 3">
                         </div>
                         <h1 class="size-h1 font-heading letter-spacing-title">2021 - 2024</h1>
-                        <p>Celebrating Excellence: Rosewood Luang Prabang named <span class="weight-semibold">No.1 Best Hotel in Asia 2021 by Condé Nast Traveler</span>, Swan Lake Residences Khao Yai awarded <span class="weight-semibold">Best Green Development at Dot Property Southeast Asia Awards 2022</span>, and InterContinental Khao Yai acclaimed in <span class="weight-semibold">Condé Nast Traveler's The Hot List 2023</span> and <span class="weight-semibold">Travel+Leisure's Luxury Awards 2024.</span></p>
+                        <p>Celebrating Excellence: Rosewood Luang Prabang named <strong>No.1 Best Hotel in Asia 2021 by Condé Nast Traveler</strong>, Swan Lake Residences Khao Yai awarded <strong>Best Green Development at Dot Property Southeast Asia Awards 2022</strong>, and InterContinental Khao Yai acclaimed in <strong>Condé Nast Traveler's The Hot List 2023</strong> and <strong>Travel+Leisure's Luxury Awards 2024.</strong></p>
                     </div>
                 </div>
             </div>
@@ -213,14 +213,14 @@
                         <img src="./assets/img/design/template6-image1.png" alt="template6 image1">
                         <h1 class="size-h1 font-heading letter-spacing-title c-white">2024</h1>
                     </div>
-                    <p><span class="weight-semibold">Mr. Stephane Michel</span> joins the leadership team at Elysian Development as <span class="weight-semibold">President.</span></p>
+                    <p><strong>Mr. Stephane Michel</strong> joins the leadership team at Elysian Development as <strong>President.</strong></p>
                 </div>
                 <div class="right-side">
                     <div class="image">
                         <img src="./assets/img/design/template6-image2.png" alt="template6 image2">
                         <h1 class="size-h1 font-heading letter-spacing-title">2024</h1>
                     </div>
-                    <p>Launch of <span class="weight-semibold">Sukhumvit Branded Residences</span> - situated in the heart of Sukhumvit's vibrant energy, offering an exclusive address coveted by discerning residents.</p>
+                    <p>Launch of <strong>Sukhumvit Branded Residences</strong> - situated in the heart of Sukhumvit's vibrant energy, offering an exclusive address coveted by discerning residents.</p>
                 </div>
             </div>
         </section>

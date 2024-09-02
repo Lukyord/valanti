@@ -11,6 +11,6 @@
             <p style="margin-bottom: -6px">By <?php echo $news["author"] ?></p>
         <?php } ?>
         <p><?php echo $news["description"] ?></p>
-        <p class="margin-top-16"><span class="weight-bold"><?php echo $news["press"] ?></span>, <?php echo $news["date"] ?></p>
+        <p class="margin-top-16"><strong><?php echo $news["press"] ?></strong>, <?php echo $news["date"] ?></p>
     </div>
 </div>

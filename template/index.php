@@ -53,9 +53,10 @@
                     </div>
                     <div class="text size-description2 a-center">
                         <h6 class="weight-bold">InterContinental Khao Yai Resort</h6>
-                        <div class="margin-top-12">
-                            <p class="weight-bold">Luxury Awards Asia-Pacific 2024:</p>
-                            <p>Best Upcountry Hotel in Thailand</p>
+                        <div>
+                            <p><strong>Luxury Awards Asia-Pacific 2024:</strong> <br>
+                                Best Upcountry Hotel in Thailand
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -65,9 +66,10 @@
                     </div>
                     <div class="text size-description2 a-center">
                         <h6 class="weight-bold">InterContinental Khao Yai Resort</h6>
-                        <div class="margin-top-12">
-                            <p class="weight-bold">The Hot List 2023:</p>
-                            <p>The Best New Hotels around the World</p>
+                        <div>
+                            <p><strong>The Hot List 2023:</strong> <br>
+                                The Best New Hotels around the World
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -77,9 +79,10 @@
                     </div>
                     <div class="text size-description2 a-center">
                         <h6 class="weight-bold">Swan Lake Residences Khao Yai</h6>
-                        <div class="margin-top-12">
-                            <p class="weight-bold">Dot Property Southeast Asia Awards 2022</p>
-                            <p>Best Green Development</p>
+                        <div>
+                            <p><strong>Dot Property Southeast Asia Awards 2022</strong> <br>
+                                Best Green Development
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -89,9 +92,9 @@
                     </div>
                     <div class="text size-description2 a-center">
                         <h6 class="weight-bold">Rosewood Luang Prabang</h6>
-                        <div class="margin-top-12">
-                            <p class="weight-bold">Readers' Choice Awards:</p>
-                            <p>No. 1, Best Hotel in Asia 2021</p>
+                        <div>
+                            <p><strong>Readers' Choice Awards:</strong> <br>
+                                No. 1, Best Hotel in Asia 2021</p>
                         </div>
                     </div>
                 </div>
@@ -298,7 +301,7 @@
                     GREEN DEVELOPMENT</h3>
                 <div class="description">
                     <p>30 winners from across Thailand were honoured at Dot Property Thailand Awards 2022. Swan Lake Residences Khao Yai empowers residents to connect with nature in Thailand’s beautiful Khao Yai.</p>
-                    <p><span class="weight-bold">Bangkok Post</span>, August 2022</p>
+                    <p><strong>Bangkok Post</strong>, August 2022</p>
                 </div>
             </div>
         </div>

@@ -1353,21 +1353,6 @@ jQuery(function ($) {
     });
 });
 
-// COOKIE STYLING
-jQuery(function ($) {
-    if ($(".cky-notice-des").length) {
-        var $paragraph = $(".cky-notice-des p");
-
-        var paragraphHtml = $paragraph.html();
-
-        var updatedHtml = paragraphHtml.replace(
-            "This site uses cookies.",
-            "<span class='cookie-heading font-heading letter-spacing-title-sm margin-bottom-24'>THIS WEBSITE UTILIES COOKIES</span>"
-        );
-        $paragraph.html(updatedHtml);
-    }
-});
-
 // EFFECT
 
 // ===== LENIS =====

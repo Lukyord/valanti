@@ -52,6 +52,7 @@
     text-wrap: nowrap;
     padding: var(--header-height) 0;
     pointer-events: none;
+    text-wrap: wrap;
 }
 
 .index-hero .locations {
@@ -79,7 +80,7 @@
     position: relative;
     width: calc(25% - var(--spacing-40));
     column-gap: var(--spacing-40);
-    row-gap: var(--spacing-10);
+    row-gap: var(--spacing-40);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -182,6 +183,12 @@
     text-wrap: balance;
 }
 
+.index-awards .awards .award .text {
+    display: flex;
+    flex-direction: column;
+    grid-gap: var(--spacing-12);
+}
+
 @media (max-width: 991px) {
     .index-awards {
         padding: var(--spacing-100) 0;
@@ -205,6 +212,16 @@
     background-repeat: no-repeat;
 }
 
+@media (max-width: 991px) {
+    .index-under-development {
+        overflow: hidden;
+    }
+
+    .index-under-development .swiper {
+        overflow: visible !important;
+    }
+}
+
 /*IMAGE-BANNER-1====================*/
 .image-banner-1 .sc-banner .floating-text {
     width: 100%;
@@ -214,6 +231,7 @@
     color: var(--color-white);
     position: absolute;
     transform: translateX(-50%);
+    max-width: 90%;
 }
 
 @media (max-width: 991px) {
@@ -291,11 +309,10 @@
 .hollistic-wellness {
     display: flex;
     margin: var(--spacing-120) 0;
-    height: 25.9259259259vw;
 }
 
 .hollistic-wellness .images {
-    height: 100%;
+    height: 25.9259259259vw;
     width: 66.5%;
     display: flex;
     overflow: hidden;
@@ -311,12 +328,13 @@
 .hollistic-wellness .text-wrap {
     width: 33.5%;
     height: 100%;
+    align-self: flex-end;
 }
 
 .hollistic-wellness .text-wrap .text {
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: flex-end;
     height: 100%;
     width: min(66.1538461538%, 396px);
     margin: 0 auto;
