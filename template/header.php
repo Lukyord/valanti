@@ -93,8 +93,8 @@ $page_index = ($page == basename(dirname($_SERVER['PHP_SELF']), "/") || $page ==
                         <div class="panel-wrap">
                             <div class="panel-body">
                                 <ul class="menu font-heading">
-                                    <li><a href="<?php echo $root; ?>about.php">ABOUT US</a></li>
                                     <li><a href="<?php echo $root; ?>development.php">DEVELOPMENTS</a></li>
+                                    <li><a href="<?php echo $root; ?>about.php">ABOUT US</a></li>
                                     <li><a href="<?php echo $root; ?>leadership.php">LEADERSHIP</a></li>
                                     <li><a href="<?php echo $root; ?>news.php">IN THE NEWS</a></li>
                                     <li class="hidden-device-md"><a href="<?php echo $root; ?>contact.php">CONTACT</a></li>

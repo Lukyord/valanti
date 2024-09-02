@@ -21,7 +21,7 @@
 
     <section class="sc leadership-content">
         <div class="sc-inner">
-            <div class="entry-content entry-fadeIn">
+            <div class="entry-content entry-fadeIn a-center-device-sm">
                 <div class="wp-block-columns">
                     <div class="wp-block-column">
                         <h3 class="wp-block-heading">MANIT<br>UDOMKUNNATUM</h3>

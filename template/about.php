@@ -34,7 +34,7 @@
                         <img src="./assets/img/design/about4.png" alt="about image 4" class="animate fadeIn">
                         <img src="./assets/img/design/about5.png" alt="about image 5" class="animate fadeIn">
                     </div>
-                    <p class="description-text animate fadeIn">Including <strong>Rosewood Luang Prabang, InterContinental Khao Yai.</strong></p>
+                    <p class="description-text short-width animate fadeIn">Including <strong>Rosewood Luang Prabang, InterContinental Khao Yai.</strong></p>
                 </div>
                 <div class="image-description">
                     <div class="image-with-text animate fadeIn">

@@ -272,7 +272,7 @@
     right: unset;
     top: unset;
     left: calc(100% + var(--spacing-16));
-    bottom: calc(-1 * var(--spacing-36));
+    bottom: calc(-1 * var(--spacing-30));
     transform: translateY(0);
 }
 

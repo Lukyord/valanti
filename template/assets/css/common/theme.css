@@ -78,7 +78,7 @@
     --font-size-h2: max(calc(-0.15534521rem + 2.67260579vw), 24px);
     --font-size-h3: max(calc(0.17232739rem + 1.3363029vw), 16px);
     --font-size-h4: max(calc(0.32321826rem + 0.8908686vw), 14px);
-    --font-size-body: max(calc(0.47410913rem + 0.4454343vw), 10px);
+    --font-size-body: max(calc(0.47410913rem + 0.4454343vw), 12px);
     --font-size-body-sub: var(--font-size-description2);
     --font-size-description: max(calc(0.47410913rem + 0.4454343vw), 12px);
     --font-size-description2: var(--12px);
@@ -298,15 +298,10 @@
 .separator {
     width: 100%;
     border-bottom: 0.5px solid var(--color-neutral-dark-gray);
+    width: calc(100% - var(--container-spacing-x) * 2);
     max-width: var(--1508px);
     margin: 0 auto;
 }
-
-/* @media (max-width: 991px) {
-    .separator {
-        width: calc(100% - var(--container-spacing-x) * 2);
-    }
-} */
 
 .margin-0 {
     margin: 0 !important;
@@ -1483,6 +1478,7 @@ html.no-touchevents .button.button-hyperion:hover > span > span {
 
 .entry-content .wp-block-separator {
     width: 100%;
+    border: none;
     border-bottom: 0.5px solid var(--color-neutral-dark-gray);
     margin-top: 0 !important;
     margin-bottom: calc(var(--spacing-100)) !important;
@@ -1804,7 +1800,15 @@ html.no-touchevents .button.button-hyperion:hover > span > span {
     width: 100%;
     height: var(--input-height);
     padding: var(--input-spacing-y) var(--input-spacing-x);
+    padding-left: 0;
 }
+
+/* @media (max-width: 991px) {
+    *:is(input, textarea, select) {
+        font-size: var(--font-size-body-sub);
+    }
+} */
+
 *:is(input) {
     padding-bottom: 0;
 }
@@ -2359,6 +2363,17 @@ textarea {
     font-size: var(--font-size-body-sub);
     opacity: var(--opacity);
 }
+
+@media (max-width: 991px) {
+    .input.filled .label.anim.fixed {
+        font-size: calc(var(--font-size-body-sub) - 2px);
+    }
+
+    .input:has(*:-internal-autofill-selected) .label.anim.fixed {
+        font-size: calc(var(--font-size-body-sub) - 2px);
+    }
+}
+
 .c-white .input:has(*:-internal-autofill-selected) .label.anim.fixed {
     color: inherit;
     opacity: var(--opacity);

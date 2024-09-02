@@ -18,10 +18,22 @@
         flex-direction: row;
         height: auto;
         align-items: center;
+        justify-content: space-between;
     }
 
     .first-grid .news-card:first-child .news-image {
         height: 100%;
+        width: 48.5411140584%;
+        aspect-ratio: 1.06240928882;
+    }
+
+    .first-grid .news-card:first-child .news-detail {
+        width: 43.899204244%;
+    }
+
+    .first-grid .news-card:first-child .news-detail > h3 {
+        font-size: var(--font-size-h2) !important;
+        line-height: var(--line-height-h2) !important;
     }
 
     .first-grid .news-card {

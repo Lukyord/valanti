@@ -267,7 +267,7 @@
 
 @media (max-width: 991px) {
     .comprehensive-lifestyle {
-        padding: 11.5740740741vw 0;
+        padding: 20.5128205128vw 0;
     }
 
     .comprehensive-lifestyle .sc-inner .text > p {
@@ -415,6 +415,7 @@
 
     .index-news .title {
         margin-bottom: var(--spacing-50);
+        text-align: center;
     }
 }
 
@@ -444,7 +445,7 @@
 @media (max-width: 991px) {
     .image-banner-3 .sc-banner .floating-text {
         width: 90%;
-        height: 90%;
+        height: 77.94871795%;
         flex-direction: column;
         text-align: center;
     }

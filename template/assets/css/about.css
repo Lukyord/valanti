@@ -49,6 +49,10 @@
     margin-top: var(--spacing-30);
 }
 
+.about-content .description-text.short-width {
+    width: 43.9759036145%;
+}
+
 .about-content .body .images-grid {
     grid-row: span 2;
 }
@@ -136,6 +140,9 @@
 
     .about-content .description-text {
         margin-top: var(--spacing-16);
+    }
+    .about-content .description-text.short-width {
+        width: 100%;
     }
 
     .about-content .body {

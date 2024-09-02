@@ -35,7 +35,7 @@
                     } ?>
                 </div>
                 <div class="groups">
-                    <p class="margin-bottom-24 animate fadeIn">Part of the group:</p>
+                    <p class="animate fadeIn">Part of the group:</p>
                     <div class="groups-logos animate fadeIn">
                         <?php
                         $groups_logo_arr = array(
