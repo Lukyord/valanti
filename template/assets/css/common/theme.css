@@ -1990,6 +1990,7 @@ textarea {
     .select2-selection__rendered {
     display: block;
     padding: var(--input-spacing-y) var(--input-spacing-x);
+    padding-left: 0;
     padding-bottom: 0;
     padding-right: var(--input-height);
     height: 100%;
