@@ -17,7 +17,7 @@
                 <?php
                 $news_arr = array(
                     array(
-                        "image" => "./assets/img/design/news1.png",
+                        "image" => "./assets/img/design/news1.jpg",
                         "title" => "Best Upcountry Hotel in Thailand at the Travel + Leisure Asia-Pacific Awards.",
                         "description" => "The winners showcase the best in high-end travel, as chosen by Travel + Leisure Southeast Asia, Hong Kong, and Macau's readers.",
                         "press" => "Prestige Thailand",
@@ -25,7 +25,7 @@
 
                     ),
                     array(
-                        "image" => "./assets/img/design/news2.png",
+                        "image" => "./assets/img/design/news2.jpg",
                         "title" => "PILLARS OF LEADERSHIP",
                         "author" => "Joseph Allen",
                         "description" => "A select few individuals undergird the luxury landscape. Like mighty Atlas bearing the globe, each of these exemplars supports a portion of the gilded world, fostering its bounty and excellence.",
@@ -33,7 +33,7 @@
                         "date" => "May 2023",
                     ),
                     array(
-                        "image" => "./assets/img/design/news3.png",
+                        "image" => "./assets/img/design/news3.jpg",
                         "title" => "INTERNATIONAL LUXURY HOSPITALITY",
                         "author" => "Joseph Allen",
                         "description" => "Based in Bangkok, Thailand, Elysian Development Co., Ltd. is recognized for its dedication to outstanding quality and savoir-faire within the luxury hospitality industry.",
@@ -42,7 +42,7 @@
 
                     ),
                     array(
-                        "image" => "./assets/img/design/news4.png",
+                        "image" => "./assets/img/design/news4.jpg",
                         "title" => "Readers' Choice Awards: No. 1, Best Hotel in Asia 2021",
                         "description" => "Rosewood Luang Prabang has been recognized as one of the best new resorts in the world by leading travel magazines and organizations.",
                         "press" => "Condé Nast Traveler",

@@ -30,7 +30,7 @@
                 </div>
                 <div class="map animate fadeIn">
                     <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11200.675829730526!2d-75.6876061!3d45.42609535!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce04ff4fe494ef%3A0x26bb54f60c29f6e!2sParliament+Hill!5e0!3m2!1sen!2sca!4v1528808935681" title="mock iframe"></iframe> -->
-                    <img src="./assets/img/design/map-mock.png" alt="company map">
+                    <img src="./assets/img/design/map-mock.jpg" alt="company map">
                     <div class="pin" style="top: 25%; right: 25%">
                         <a href="#outer">
                             <button class="button button-hyperion"><span><span>Explore in Google Maps</span></span><i class="ic ic-angle-right size-icon-32 c-gray-dark"></i></button>

@@ -1048,6 +1048,54 @@ select,
     transition: var(--duration) var(--timing-function);
 }
 
+/*BLURRED IMAGE====================*/
+.blurred-media {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    filter: blur(10px);
+}
+
+.blurred-media::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    animation: pulse 2.5s infinite;
+    background-color: var(--color-neutral-dark-gray);
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.blurred-media.loaded {
+    position: unset;
+    filter: none;
+}
+
+.blurred-media.loaded::before {
+    animation: none;
+    content: none;
+}
+
+.blurred-media *:is(img, video) {
+    opacity: 0;
+    transition: opacity 250ms ease-in-out;
+}
+
+.blurred-media.loaded *:is(img, video) {
+    opacity: 1;
+}
+
 /*CTAs====================*/
 a:hover {
 }

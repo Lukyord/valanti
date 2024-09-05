@@ -27,7 +27,7 @@
                     </div>
                 </div>
                 <div class="header-image animate fadeIn">
-                    <img src="./assets/img/design/leader2.png" alt="news header image">
+                    <img src="./assets/img/design/leader2.jpg" alt="news header image">
                 </div>
             </div>
 
@@ -39,7 +39,7 @@
                             “Amidst successes, there were failures too, like my ill-fated venture into the flower shop business. Yet, each endeavour, successful or not, enriched me with invaluable experience. Among the successes, launching a mixed-use project in Phuket, overcoming the challenge of a tsunami, stands out. Another highlight was the opening of Rosewood Luang Prabang, which weathered the storm of COVID-19, supporting staff through innovative initiatives during the closure period. What fills me with the utmost pride, however, is how we cared for our staff during the toughest times, and their loyalty upon our reopening despite tempting offers from competitors. It's a testament to compassion, empathy, and loyalty. In reflection, I'm proud of every achievement and failure, making it impossible to single out one proudest moment” she says. <br><br>
                             “The values instilled by my Chinese-Thai parents - hard work, patience, perseverance, integrity, loyalty, authenticity, humility, and leadership - laid the groundwork. My education in Singapore instilled discipline, self- motivation, competitiveness, and a relentless pursuit of excellence. Every business accomplishment, I must admit, fills me with pride. They were forged through an incredible amount of dedication and sacrifice - countless hours of strategic planning, hard graft, teamwork, innovation, and overcoming numerous obstacles to reach our goals. For me, the journey was as enriching and meaningful as the destination” she adds.
                         </p>
-                        <figure class="wp-block-image size-full"><img src="./assets/img/design/news-image1.png" alt="news image 1"></figure>
+                        <figure class="wp-block-image size-full"><img src="./assets/img/design/news-image1.jpg" alt="news image 1"></figure>
                     </div>
                     <div class="wp-block-column">
                         <p>
@@ -66,7 +66,7 @@
                             “Amidst successes, there were failures too, like my ill-fated venture into the flower shop business. Yet, each endeavour, successful or not, enriched me with invaluable experience. Among the successes, launching a mixed-use project in Phuket, overcoming the challenge of a tsunami, stands out. Another highlight was the opening of Rosewood Luang Prabang, which weathered the storm of COVID-19, supporting staff through innovative initiatives during the closure period. What fills me with the utmost pride, however, is how we cared for our staff during the toughest times, and their loyalty upon our reopening despite tempting offers from competitors. It's a testament to compassion, empathy, and loyalty. In reflection, I'm proud of every achievement and failure, making it impossible to single out one proudest moment” she says. <br><br>
                             “The values instilled by my Chinese-Thai parents - hard work, patience, perseverance, integrity, loyalty, authenticity, humility, and leadership - laid the groundwork. My education in Singapore instilled discipline, self- motivation, competitiveness, and a relentless pursuit of excellence. Every business accomplishment, I must admit, fills me with pride. They were forged through an incredible amount of dedication and sacrifice - countless hours of strategic planning, hard graft, teamwork, innovation, and overcoming numerous obstacles to reach our goals. For me, the journey was as enriching and meaningful as the destination” she adds.
                         </p>
-                        <figure class="wp-block-image size-full"><img src="./assets/img/design/news-image1.png" alt="news image 1"></figure>
+                        <figure class="wp-block-image size-full"><img src="./assets/img/design/news-image1.jpg" alt="news image 1"></figure>
                     </div>
                     <div class="wp-block-column">
                         <p>

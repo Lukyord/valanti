@@ -89,7 +89,7 @@ html.header-menu-enabled .header-nav .header-menu-ctrl .ctrl .menu-icon-outer {
 }
 
 .header-menu {
-    --menu-bg: url(../../assets/img/design/menu-bg.png);
+    --menu-bg: url(../../assets/img/design/menu-bg.jpg);
     position: fixed;
     top: 0;
     left: 0;
@@ -227,7 +227,7 @@ html.header-menu-enabled .header-menu .panel-wrap .panel-footer {
     }
 
     .header-menu {
-        --menu-bg: url(../../assets/img/design/menu-bg-m.png);
+        --menu-bg: url(../../assets/img/design/menu-bg-m.jpg);
     }
 
     .header-menu .panel-wrap .panel-body .menu {

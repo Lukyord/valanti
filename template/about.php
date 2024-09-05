@@ -14,7 +14,7 @@
     <section class="sc about-content">
         <div class="sc-inner">
             <div class="image-banner">
-                <img src="./assets/img/design/about1.png" alt="about image 1" class="animate matrixZoomOut">
+                <img src="./assets/img/design/about1.jpg" alt="about image 1" class="animate matrixZoomOut">
             </div>
             <div class="body">
                 <div class="text">
@@ -28,17 +28,17 @@
                 <div class="images-grid">
                     <div class="grid">
                         <div class="image-with-text animate fadeIn">
-                            <img src="./assets/img/design/about3.png" alt="about image 3">
+                            <img src="./assets/img/design/about3.jpg" alt="about image 3">
                             <h3 class="font-heading letter-spacing-title-sm size-h3 c-white">LUXURY VENTURES</h3>
                         </div>
-                        <img src="./assets/img/design/about4.png" alt="about image 4" class="animate fadeIn">
-                        <img src="./assets/img/design/about5.png" alt="about image 5" class="animate fadeIn">
+                        <img src="./assets/img/design/about4.jpg" alt="about image 4" class="animate fadeIn">
+                        <img src="./assets/img/design/about5.jpg" alt="about image 5" class="animate fadeIn">
                     </div>
                     <p class="description-text short-width animate fadeIn">Including <strong>Rosewood Luang Prabang, InterContinental Khao Yai.</strong></p>
                 </div>
                 <div class="image-description">
                     <div class="image-with-text animate fadeIn">
-                        <img src="./assets/img/design/about2.png" alt="about image 2">
+                        <img src="./assets/img/design/about2.jpg" alt="about image 2">
                         <h3 class="font-heading letter-spacing-title-sm size-h3 c-white">LUXURY RESIDENTIAL<br>DEVELOPMENTS</h3>
                     </div>
                     <p class="description-text animate fadeIn"><strong>Swan Lake Residences Khao Yai</strong> - an award-winning residential
@@ -52,13 +52,13 @@
                         has been involved in some of the
                         most important ventures in Thailand.</p>
                     <div class="images hidden-device-sm">
-                        <img src="./assets/img/design/about6.png" alt="about image 6" class="animate fadeIn">
-                        <img src="./assets/img/design/about7.png" alt="about image 7" class="animate fadeIn">
+                        <img src="./assets/img/design/about6.jpg" alt="about image 6" class="animate fadeIn">
+                        <img src="./assets/img/design/about7.jpg" alt="about image 7" class="animate fadeIn">
                     </div>
                 </div>
                 <div class="comp-2 animate fadeIn">
-                    <img src="./assets/img/design/about8.png" alt="about image 8">
-                    <img src="./assets/img/design/about9.png" alt="about image 9">
+                    <img src="./assets/img/design/about8.jpg" alt="about image 8">
+                    <img src="./assets/img/design/about9.jpg" alt="about image 9">
                 </div>
                 <div class="comp-3">
                     <p class="animate fadeIn">
@@ -74,7 +74,7 @@
                         of luxury. Our quest for uniqueness fuels our determination
                         to deliver exceptional results in every endeavor.
                     </p>
-                    <img src="./assets/img/design/sign.png" alt="signature" class="margin-top-50 animate fadeIn">
+                    <img src="./assets/img/design/sign.jpg" alt="signature" class="margin-top-50 animate fadeIn">
                 </div>
             </div>
             <div class="separator animate fadeIn"></div>
@@ -109,13 +109,13 @@
                         </p>
                         <div class="images">
                             <div class="content-image">
-                                <img src="./assets/img/design/template1-image1.png" alt="template1 image1">
+                                <img src="./assets/img/design/template1-image1.jpg" alt="template1 image1">
                             </div>
                             <div class="content-image">
-                                <img src="./assets/img/design/template1-image2.png" alt="template1 image2">
+                                <img src="./assets/img/design/template1-image2.jpg" alt="template1 image2">
                             </div>
                             <div class="content-image">
-                                <img src="./assets/img/design/template1-image3.png" alt="template1 image3">
+                                <img src="./assets/img/design/template1-image3.jpg" alt="template1 image3">
                             </div>
                         </div>
                     </div>
@@ -123,10 +123,10 @@
                 <div class="right-side">
                     <div class="images">
                         <div class="content-image">
-                            <img src="./assets/img/design/template1-image4.png" alt="template1 image4">
+                            <img src="./assets/img/design/template1-image4.jpg" alt="template1 image4">
                         </div>
                         <div class="content-image">
-                            <img src="./assets/img/design/template1-image5.png" alt="template1 image5">
+                            <img src="./assets/img/design/template1-image5.jpg" alt="template1 image5">
                         </div>
                     </div>
                     <div class="text">
@@ -142,10 +142,10 @@
                     <div class="wrapper">
                         <h1 class="size-h1 font-heading letter-spacing-title">2017</h1>
                         <div class="content-image">
-                            <img src="./assets/img/design/template2-image1.png" alt="template2 image1">
+                            <img src="./assets/img/design/template2-image1.jpg" alt="template2 image1">
                         </div>
                         <div class="content-image">
-                            <img src="./assets/img/design/template2-image2.png" alt="template2 image2">
+                            <img src="./assets/img/design/template2-image2.jpg" alt="template2 image2">
                         </div>
                         <p>Unveiled <strong>Rosewood Luang Prabang:</strong> A serene luxury retreat that harmoniously blends rich cultural heritage with breathtaking natural beauty.</p>
                     </div>
@@ -156,7 +156,7 @@
                 <div class="center">
                     <div class="wrapper">
                         <div class="content-image">
-                            <img src="./assets/img/design/template3-image1.png" alt="template3 image1">
+                            <img src="./assets/img/design/template3-image1.jpg" alt="template3 image1">
                             <h1 class="size-h1 font-heading letter-spacing-title">2020</h1>
                         </div>
                         <p>Elysian Development partners with IHG to manage the 61-room <strong>InterContinental Khao Yai</strong> resort, elevating luxury hospitality in a stunning natural setting.</p>
@@ -176,19 +176,19 @@
                         </div>
                         <p>Turning abandoned train cars procured from across Thailand into luxury suites.</p>
                         <div class="content-image">
-                            <img src="./assets/img/design/template4-image1.png" alt="template4 image1">
+                            <img src="./assets/img/design/template4-image1.jpg" alt="template4 image1">
                         </div>
                         <div class="content-image">
-                            <img src="./assets/img/design/template4-image2.png" alt="template4 image2">
+                            <img src="./assets/img/design/template4-image2.jpg" alt="template4 image2">
                         </div>
                         <div class="content-image">
-                            <img src="./assets/img/design/template4-image3.png" alt="template4 image3">
+                            <img src="./assets/img/design/template4-image3.jpg" alt="template4 image3">
                         </div>
                         <div class="content-image">
-                            <img src="./assets/img/design/template4-image4.png" alt="template4 image4">
+                            <img src="./assets/img/design/template4-image4.jpg" alt="template4 image4">
                         </div>
                         <div class="content-image">
-                            <img src="./assets/img/design/template4-image5.png" alt="template4 image5">
+                            <img src="./assets/img/design/template4-image5.jpg" alt="template4 image5">
                         </div>
                     </div>
                 </div>
@@ -211,14 +211,14 @@
             <div class="horizontal-scroll-content template-6" data-timeline="present">
                 <div class="left-side">
                     <div class="image">
-                        <img src="./assets/img/design/template6-image1.png" alt="template6 image1">
+                        <img src="./assets/img/design/template6-image1.jpg" alt="template6 image1">
                         <h1 class="size-h1 font-heading letter-spacing-title c-white">2024</h1>
                     </div>
                     <p><strong>Mr. Stephane Michel</strong> joins the leadership team at Elysian Development as <strong>President.</strong></p>
                 </div>
                 <div class="right-side">
                     <div class="image">
-                        <img src="./assets/img/design/template6-image2.png" alt="template6 image2">
+                        <img src="./assets/img/design/template6-image2.jpg" alt="template6 image2">
                         <h1 class="size-h1 font-heading letter-spacing-title">2024</h1>
                     </div>
                     <p>Launch of <strong>Sukhumvit Branded Residences</strong> - situated in the heart of Sukhumvit's vibrant energy, offering an exclusive address coveted by discerning residents.</p>
