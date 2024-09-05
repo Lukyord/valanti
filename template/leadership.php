@@ -6,7 +6,7 @@
         <div class="sc-inner first-sc">
             <div class="hero-text a-center">
                 <h1 class="size-h1-h2-m font-heading letter-spacing-title animate fadeIn">LEADERSHIP</h1>
-                <p class="margin-top-20 size-h4 letter-spacing-title-des animate fadeIn">Empowering with purpose and passion.</p>
+                <p class="size-h4 letter-spacing-title-des animate fadeIn">Empowering with purpose and passion.</p>
             </div>
         </div>
     </section>

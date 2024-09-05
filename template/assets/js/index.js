@@ -19,6 +19,11 @@ jQuery(function ($) {
             if (itemLength <= 4) {
                 $(this).addClass("less-than-4");
             }
+
+            //match height
+            $(this).find(".image").matchHeight({
+                byRow: true,
+            });
         });
     }
 });

@@ -47,10 +47,8 @@
     font-size: var(--icon-size-16);
     position: absolute;
     right: 0;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 0;
     color: var(--color-body);
-    opacity: var(--opacity);
     cursor: pointer;
     display: block;
 }
@@ -91,10 +89,9 @@
     width: unset;
     font: inherit;
     color: currentColor;
-    width: 1em;
-    height: 1em;
-    border: 0.05em solid currentColor;
-    border-radius: 0.15em;
+    width: var(--input-height);
+    height: var(--input-height);
+    border: 1px solid currentColor;
     display: grid;
     place-content: center;
     cursor: pointer;
@@ -102,12 +99,12 @@
 
 input[type="checkbox"]::before {
     content: "";
-    width: 0.65em;
-    height: 0.65em;
+    width: calc(var(--input-height) * 0.75);
+    height: calc(var(--input-height) * 0.75);
     transform: scale(0);
     transition: 120ms transform ease-in-out;
     transform-origin: center;
-    box-shadow: inset 1em 1em var(--color-black);
+    box-shadow: inset 1em 1em var(--color-secondary-red);
     clip-path: polygon(16% 48%, 10% 60%, 48% 90%, 92% 20%, 80% 10%, 45% 70%);
 }
 
@@ -144,5 +141,9 @@ input[type="checkbox"]:checked::before {
         grid-gap: var(--spacing-40);
         align-items: start;
         flex-direction: column-reverse;
+    }
+
+    .contact-content .contact-form .input.with-select .trigger-dropdown {
+        font-size: 13px;
     }
 }

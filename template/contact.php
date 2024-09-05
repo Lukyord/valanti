@@ -6,7 +6,7 @@
         <div class="sc-inner first-sc">
             <div class="hero-text a-center">
                 <h1 class="size-h1-h2-m font-heading letter-spacing-title animate fadeIn">CONTACT</h1>
-                <p class="margin-top-20 size-h4 letter-spacing-title-des animate fadeIn">Reach out to our team or leave your <br class="hidden-device-sm">details<br class="hidden-device-md"> below to receive more information.</p>
+                <p class="size-h4 letter-spacing-title-des animate fadeIn">Reach out to our team or leave your <br class="hidden-device-sm">details<br class="hidden-device-md"> below to receive more information.</p>
             </div>
         </div>
     </section>
@@ -43,7 +43,7 @@
             </div>
             <div class="contact-form">
                 <div class="entry-form" data-form-style="space-between">
-                    <form class="wpcf7-form">
+                    <form class="wpcf7-form" action="<?php echo $root ?>misc.php">
                         <div class="fields">
                             <div class="field animate fadeIn">
                                 <div class="input">
@@ -95,7 +95,7 @@
                                             <option value="others">Others Please Specify</option>
                                         </select>
                                     </div>
-                                    <span class="trigger-dropdown"><i class="ic ic-chevron-down"></i></span>
+                                    <span class="trigger-dropdown"><i class="ic ic-angle-down"></i></span>
                                 </div>
                             </div>
                             <div class="field half-width animate fadeIn">
@@ -111,7 +111,7 @@
                                             <option value="others">Others Please Specify</option>
                                         </select>
                                     </div>
-                                    <span class="trigger-dropdown"><i class="ic ic-chevron-down"></i></span>
+                                    <span class="trigger-dropdown"><i class="ic ic-angle-down"></i></span>
                                 </div>
                             </div>
 

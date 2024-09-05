@@ -39,7 +39,7 @@
                 <div class="wp-block-columns">
                     <div class="wp-block-column">
                         <h3>1. COLLECTION OF PERSONAL INFORMATION</h3>
-                        <p><strong>A. INFORMATION YOU DIRECTLY AND VOLUNTARILY PROVIDE TO US</strong></p>
+                        <p><strong><em>a. Information you directly and voluntarily provide to us</em></strong></p>
                         <p>
                             <strong>Enquiry:</strong>
                             <br><br>
@@ -59,7 +59,7 @@
                         </p>
                     </div>
                     <div class="wp-block-column">
-                        <p><strong>B. INFORMATION WE AUTOMATICALLY COLLECT FROM YOU</strong></p>
+                        <p><strong><em>b. Information we automatically collect from you</em></strong></p>
                         <p>We may automatically collect information about you when you use the sites or our services. For example, if you access the sites through a computer, we will automatically collect information such as your browser type and version, computer and connection information, IP address, pages you have visited and standard web log information. We may use remarketing tools that will serve ads to you based on your location, the content you have explored on our site to render ads to you after you have left our site. If you access the sites through a mobile device, we may also be able to identify the location of your mobile device. You may choose not to share your location details with us by adjusting your mobile device’s location services settings. For instructions on changing the relevant settings, please contact your service provider or device manufacturer.</p>
                         <p>We may automatically collect information from you when you use the sites using ‘cookies’ and other similar technologies, such as web beacons. Cookies are small amounts of data that are stored within your computer’s internet browser and that are accessed and recorded by the websites that you visit so that they can recognise the same browser navigating online at a later time. The cookies are not able to execute code or access other information stored on the computer. Web beacons are transparent pixel images that are used in collecting information about website usage, email response and tracking.
                             <br>
@@ -85,7 +85,7 @@
                             This information is collected to enhance the site performance and end user experience. You can set your browser to reject cookies or to notify you when you are sent a cookie. To learn more about your ability to manage cookies and web beacons, please consult the privacy features in your browser.</p>
                     </div>
                     <div class="wp-block-column">
-                        <p><strong>C. INFORMATION YOU PROVIDE TO PAYMENT PROCESSOR</strong></p>
+                        <p><strong><em>c. Information you provide to payment processors</em></strong></p>
                         <p>All payments made to VALANTI are processed by third party processing service engaged by VALANTI. All information collected by these third-party providers for purposes of processing your payments is not available to us, unless you have otherwise provided this information to us in connection with your use of the sites or our products and services.</p>
                         <h3>2. MARKETING COMMUNICATIONS</h3>
                         <p>We may combine your information with data we collect from our vendors and use it to improve and personalise the VALANTI website. If you don’t wish to receive marketing communications from us or participate in our ad-customisation programs, simply update your communication preferences at  info@valanti.com, or follow the directions provided with the communication or advertisement.</p>
@@ -98,7 +98,7 @@
                 <div class="wp-block-columns">
                     <div class="wp-block-column">
                         <h3>1. COLLECTION OF PERSONAL INFORMATION</h3>
-                        <p><strong>A. INFORMATION YOU DIRECTLY AND VOLUNTARILY PROVIDE TO US</strong></p>
+                        <p><strong>a. Information you directly and voluntarily provide to us</strong></p>
                         <p>
                             <strong>Enquiry:</strong>
                             <br><br>
@@ -118,7 +118,7 @@
                         </p>
                     </div>
                     <div class="wp-block-column">
-                        <p><strong>B. INFORMATION WE AUTOMATICALLY COLLECT FROM YOU</strong></p>
+                        <p><strong>b. Information we automatically collect from you</strong></p>
                         <p>We may automatically collect information about you when you use the sites or our services. For example, if you access the sites through a computer, we will automatically collect information such as your browser type and version, computer and connection information, IP address, pages you have visited and standard web log information. We may use remarketing tools that will serve ads to you based on your location, the content you have explored on our site to render ads to you after you have left our site. If you access the sites through a mobile device, we may also be able to identify the location of your mobile device. You may choose not to share your location details with us by adjusting your mobile device’s location services settings. For instructions on changing the relevant settings, please contact your service provider or device manufacturer.</p>
                         <p>We may automatically collect information from you when you use the sites using ‘cookies’ and other similar technologies, such as web beacons. Cookies are small amounts of data that are stored within your computer’s internet browser and that are accessed and recorded by the websites that you visit so that they can recognise the same browser navigating online at a later time. The cookies are not able to execute code or access other information stored on the computer. Web beacons are transparent pixel images that are used in collecting information about website usage, email response and tracking.
                             <br>
@@ -144,7 +144,7 @@
                             This information is collected to enhance the site performance and end user experience. You can set your browser to reject cookies or to notify you when you are sent a cookie. To learn more about your ability to manage cookies and web beacons, please consult the privacy features in your browser.</p>
                     </div>
                     <div class="wp-block-column">
-                        <p><strong>C. INFORMATION YOU PROVIDE TO PAYMENT PROCESSOR</strong></p>
+                        <p><strong>c. Information you provide to payment processors</strong></p>
                         <p>All payments made to VALANTI are processed by third party processing service engaged by VALANTI. All information collected by these third-party providers for purposes of processing your payments is not available to us, unless you have otherwise provided this information to us in connection with your use of the sites or our products and services.</p>
                         <h3>2. MARKETING COMMUNICATIONS</h3>
                         <p>We may combine your information with data we collect from our vendors and use it to improve and personalise the VALANTI website. If you don’t wish to receive marketing communications from us or participate in our ad-customisation programs, simply update your communication preferences at  info@valanti.com, or follow the directions provided with the communication or advertisement.</p>

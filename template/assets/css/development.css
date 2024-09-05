@@ -112,7 +112,7 @@
     height: fit-content;
     grid-gap: var(--spacing-10);
     position: sticky;
-    top: 0;
+    top: calc(var(--header-height) + var(--spacing-6));
 }
 /* TYPE 1 */
 .development-template.type-1 .main-content .grid-images {

@@ -12,7 +12,7 @@
         <div class="sc-inner">
             <div class="hero-text a-center">
                 <h1 class="size-h1 font-heading letter-spacing-title-lg animate fadeIn" style="animation-delay: 1s">BEYOND LUXURY</h1>
-                <p class="margin-top-20 size-h4 letter-spacing-title-des animate fadeIn" style="animation-delay: 1.2s">Crafting experiences of unparalleled grandeur.</p>
+                <p class="size-h4 letter-spacing-title-des animate fadeIn" style="animation-delay: 1.2s">Crafting experiences of unparalleled grandeur.</p>
             </div>
 
             <div class="locations animate fadeIn" style="animation-delay: 1.5s">
@@ -33,6 +33,7 @@
                         "logo" => "./assets/svg/swan-lake-logo-white.svg",
                         "description" => "A beacon of luxury, mirroring the serenity and allure of the legendary lake."
                     ),
+
 
                 );
 
@@ -108,7 +109,7 @@
             <div class="under-dev-slide-swiper-button-prev swiper-button-prev hidden-device-sm"></div>
             <div class="under-dev-slide-swiper-button-next swiper-button-next hidden-device-sm"></div>
             <div class="under-development">
-                <div class="title-and-description a-center margin-bottom-120">
+                <div class="title-and-description a-center">
                     <h2 class="font-heading size-h2 letter-spacing-title-md animate fadeIn">UNDER DEVELOPMENT</h2>
                     <p class="animate fadeIn">Transforming ideas into reality.</p>
                 </div>

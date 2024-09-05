@@ -198,9 +198,10 @@
                 <div class="center">
                     <div class="wrapper">
                         <div class="logos-flex">
-                            <img src="./assets/svg/award1.svg" alt="award 1">
-                            <img src="./assets/svg/award2.svg" alt="award 2">
-                            <img src="./assets/svg/award3.svg" alt="award 3">
+                            <!-- <img src="./assets/svg/award2.svg" alt="award 1">
+                            <img src="./assets/svg/award1.svg" alt="award 2">
+                            <img src="./assets/svg/award3.svg" alt="award 3"> -->
+                            <img src="./assets/img/design/timeline-awards.png" alt="timeline-awards">
                         </div>
                         <h1 class="size-h1 font-heading letter-spacing-title">2021 - 2024</h1>
                         <p>Celebrating Excellence: Rosewood Luang Prabang named <strong>No.1 Best Hotel in Asia 2021 by Condé Nast Traveler</strong>, Swan Lake Residences Khao Yai awarded <strong>Best Green Development at Dot Property Southeast Asia Awards 2022</strong>, and InterContinental Khao Yai acclaimed in <strong>Condé Nast Traveler's The Hot List 2023</strong> and <strong>Travel+Leisure's Luxury Awards 2024.</strong></p>

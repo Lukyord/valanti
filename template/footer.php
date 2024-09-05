@@ -53,7 +53,7 @@
 
                         foreach ($groups_logo_arr as $group_logo) {
                         ?>
-                            <div class="logo-hover-ci">
+                            <div class="logo-hover-ci small">
                                 <a class="link-overlay" href="<?php echo $group_logo["link"] ?>">&nbsp;</a>
                                 <img src="<?php echo $group_logo["logo"] ?>" alt="<?php echo $group_logo["logo-name"] ?>">
                             </div>
@@ -71,9 +71,13 @@
                         518/5 Maneeya Center Building, 11th floor<br>
                         Ploenchit Road, Lumpini, Pathumwan<br>
                         Bangkok Thailand 10330
-                    </p class="animate fadeIn">
-                    <a href="tel:+6629998586" class="weight-semibold animate fadeIn">+66 (0) 2 999 8586</a>
-                    <a href="mailto:info@valanti.com" class="weight-semibold animate fadeIn">info@valanti.com</a>
+                    </p>
+                    <p>
+                        <a href="tel:+6629998586" class="weight-semibold animate fadeIn">+66 (0) 2 999 8586</a>
+                    </p>
+                    <p>
+                        <a href="mailto:info@valanti.com" class="weight-semibold animate fadeIn">info@valanti.com</a>
+                    </p>
                 </address>
                 <div class="links">
                     <ul class="pages">

@@ -1,0 +1,10 @@
+/*LEADERSHIP====================*/
+.leadership .leadership-content .sc-inner .entry-content {
+    margin-top: var(--spacing-100);
+}
+
+@media (max-width: 787px) {
+    .leadership .leadership-content .sc-inner .entry-content {
+        margin-top: var(--spacing-40);
+    }
+}

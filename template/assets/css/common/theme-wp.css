@@ -1,15 +1,12 @@
 /*WP PLUGIN:COOKIE====================*/
 .cky-consent-container {
-    width: 390px !important;
-    width: calc(100vw - var(--spacing-container) * 2) !important;
-    max-width: calc(100vw - var(--spacing-container) * 2) !important;
     padding: 0 !important;
     margin: 0 auto !important;
     position: fixed !important;
     z-index: 10000 !important;
     top: auto !important;
-    bottom: var(--spacing-container) !important;
-    left: var(--spacing-container) !important;
+    bottom: 0 !important;
+    left: 0 !important;
     right: auto !important;
     background: none;
     -webkit-user-select: none;
@@ -54,15 +51,14 @@
     font-family: var(--font-heading) !important;
     font-style: normal !important;
     text-transform: uppercase !important;
-    letter-spacing: var(--letter-spacing) !important;
+    letter-spacing: var(--letter-spacing-title-des) !important;
     color: var(--color-white) !important;
     display: block;
     font-size: var(--font-size-h3) !important;
     line-height: var(--line-height-h3) !important;
-    padding-bottom: var(--spacing-24) !important;
 }
 .cky-notice .cky-title:not(:last-child) {
-    margin-bottom: var(--spacing-2xs) !important;
+    margin-bottom: var(--spacing-24) !important;
 }
 .cky-notice .cky-title:empty {
     display: none !important;
@@ -72,7 +68,6 @@
     flex-direction: row !important;
     align-items: flex-start !important;
     justify-content: space-between !important;
-    grid-gap: var(--spacing-sm) !important;
 }
 
 .cky-notice-des {
@@ -82,7 +77,7 @@
 }
 
 .cky-notice-des > *:not(:first-child) {
-    margin-top: var(--spacing-sm);
+    margin-top: 0;
 }
 .cky-notice-des .cky-policy {
     outline: 0 !important;
@@ -139,7 +134,7 @@
     font-family: var(--font-body) !important;
     font-weight: var(--font-weight-semibold) !important;
     font-style: normal !important;
-    font-size: var(--font-size-body-sub) !important;
+    font-size: var(--14px) !important;
     line-height: normal !important;
     text-transform: capitalize !important;
     letter-spacing: var(--letter-spacing) !important;
@@ -154,7 +149,7 @@
 }
 .cky-notice-btn-wrapper .cky-btn:is(.cky-btn-accept, .cky-btn-reject) {
     --gap-y: 0px;
-    --gap-x: var(--spacing-2xs);
+    --gap-x: 0px;
     --icon-width: 30px;
     --icon-height: 8px;
     display: inline-flex !important;
@@ -231,7 +226,12 @@
         position: static !important;
         display: flex !important;
         justify-content: start !important;
-        grid-gap: var(--spacing-16) !important;
+        grid-gap: min(6.1538461538vw, var(--spacing-24)) !important;
+    }
+
+    .cky-consent-container .cky-consent-bar {
+        padding: min(6.1538461538vw, var(--spacing-24))
+            min(5.1282051282vw, var(--spacing-20)) !important;
     }
 }
 
@@ -277,7 +277,7 @@
 }
 
 .wpcf7-form .wpcf7-response-output {
-    margin: var(--spacing-xs) 0 0 !important;
+    margin: var(--spacing-16) 0 0 !important;
     padding: 0 !important;
     border: 0 !important;
 }
@@ -286,7 +286,7 @@
     margin: 0 auto;
     left: 0;
     right: auto;
-    top: calc(100% + var(--spacing-3xs));
+    top: calc(100% + var(--spacing-8));
 }
 .wpcf7-form .a-center .ajax-loader {
     left: 0;

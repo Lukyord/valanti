@@ -6,10 +6,10 @@
         <div class="sc-inner first-sc">
             <div class="hero-text a-center">
                 <h1 class="size-h1-h2-m font-heading letter-spacing-title animate fadeIn">DEVELOPMENTS</h1>
-                <p class="margin-top-20 size-h4 letter-spacing-title-des animate fadeIn">Crafting experiences of unparalleled grandeur.</p>
+                <p class="size-h4 letter-spacing-title-des animate fadeIn">Crafting experiences of unparalleled grandeur.</p>
             </div>
         </div>
-        <div class="separator animate fadeIn"></div>
+        <div class="separator sc-width animate fadeIn"></div>
     </section>
 
     <?php
