@@ -48,6 +48,13 @@
     }
 }
 
+@media (min-width: 575px) and (max-width: 991px) and (orientation: portrait) {
+    .sc-news .sc-inner {
+        grid-gap: var(--spacing-80);
+        padding-bottom: var(--spacing-80);
+    }
+}
+
 /*NEWS-SINGLE====================*/
 .news-single .news-content .sc-inner > *:not(:first-child) {
     margin-top: var(--spacing-60);

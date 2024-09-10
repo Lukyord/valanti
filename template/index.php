@@ -6,7 +6,7 @@
     <section class="sc index-hero" data-section="dark-bg">
         <div class="hero-bg">
             <figure class="object-fit animate matrixZoomOut">
-                <video playsinline autoplay muted loop src="" class="vdojs" data-vdo-src="./assets/vdo/index-hero-vdo.mov" data-vdo-srcset="" poster=""></video>
+                <video playsinline autoplay muted loop src="./assets/vdo/index-hero-vdo.mp4"></video>
             </figure>
         </div>
         <div class="sc-inner">
@@ -42,7 +42,7 @@
         </div>
     </section>
 
-    <section class="sc index-awards" style="--awards-bg: url('../../assets/img/design/awards-bg.png')">
+    <section class="sc index-awards" style="--awards-bg: url('../../assets/img/design/awards-bg.jpg')">
         <div class="sc-inner">
             <div class="awards">
                 <div class="award animate fadeIn">
@@ -98,13 +98,13 @@
                 </div>
 
             </div>
+            <div class="separator animate fadeIn"></div>
+        </div>
     </section>
 
 
-    <section class="sc index-under-development" style="--under-development-bg: url('../../assets/img/design/under-dev-bg.png')">
+    <section class="sc index-under-development" style="--under-development-bg: url('../../assets/img/design/under-dev-bg.jpg')">
         <div class=" sc-inner">
-            <div class="under-dev-slide-swiper-button-prev swiper-button-prev hidden-device-sm"></div>
-            <div class="under-dev-slide-swiper-button-next swiper-button-next hidden-device-sm"></div>
             <div class="under-development">
                 <div class="title-and-description a-center">
                     <h2 class="font-heading size-h2 letter-spacing-title-md animate fadeIn">UNDER DEVELOPMENT</h2>
@@ -140,16 +140,17 @@
                             include($root . "include/element-index-under-dev-slide.php");
                         }
                         ?>
-
                     </div>
                 </div>
+                <div class="under-dev-slide-swiper-button-prev swiper-button-prev hidden-device-sm"></div>
+                <div class="under-dev-slide-swiper-button-next swiper-button-next hidden-device-sm"></div>
             </div>
         </div>
     </section>
 
     <section class="sc image-banner image-banner-1" data-section="dark-bg">
         <div class="sc-banner">
-            <div class="image">
+            <div class="image animate fadeIn">
                 <?php
                 $cover = './assets/img/design/image-banner1.jpg';
                 $cover_m = './assets/img/design/image-banner1-m.jpg';
@@ -172,7 +173,7 @@
         </div>
     </section>
 
-    <section class="sc comprehensive-lifestyle" style="--comprehensive-lifestyle-bg: url('../../assets/img/design/comprehensive-lifestyle-bg.png')">
+    <section class="sc comprehensive-lifestyle" style="--comprehensive-lifestyle-bg: url('../../assets/img/design/comprehensive-lifestyle-bg.jpg')">
         <div class="sc-inner">
             <div class="text a-center">
                 <h2 class="size-h1-h2-m font-heading letter-spacing-title animate fadeIn">A COMPREHENSIVE LIFESTYLE APPROACH</h2>
@@ -199,19 +200,21 @@
                     </picture>
                 <?php } ?>
             </div>
+
             <div class="floating-text">
-                <h3 class="size-h3 font-heading letter-spacing-title-sm  animate fadeIn">CREATING HEALTH-PROMOTING <br />
+                <h3 class="size-h2-h3-m font-heading letter-spacing-title-sm  animate fadeIn">CREATING HEALTH-PROMOTING <br />
                     ENVIRONMENTS</h3>
                 <p class="animate fadeIn">Real estate developers are increasingly focusing on creating health-promoting environments that prioritize residents' wellbeing. These environments feature sustainable materials for better indoor air quality, green spaces for physical activity and relaxation, and amenities like fitness centers and nature trails. By emphasizing health-promoting environments, developers contribute to healthier communities and improved quality of life for residents.</p>
             </div>
+
         </div>
     </section>
 
     <section class="sc hollistic-wellness" data-section="mixed-bg">
         <div class="images dark-bg-sc">
-            <img src="./assets/img/design/hollistic1.jpg" alt="hollistic1">
-            <img src="./assets/img/design/hollistic2.jpg" alt="hollistic2">
-            <img src="./assets/img/design/hollistic3.jpg" alt="hollistic3">
+            <img src="./assets/img/design/hollistic1.jpg" alt="hollistic1" class="animate fadeIn">
+            <img src="./assets/img/design/hollistic2.jpg" alt="hollistic2" class="animate fadeIn" style="animation-delay: 0.2s">
+            <img src="./assets/img/design/hollistic3.jpg" alt="hollistic3" class="animate fadeIn" style="animation-delay: 0.4s">
         </div>
         <div class="text-wrap">
             <div class="text">

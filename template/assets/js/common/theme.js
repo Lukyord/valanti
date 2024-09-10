@@ -1015,7 +1015,6 @@ jQuery(function ($) {
                             if ($("html").hasClass("loading-completed")) {
                                 swiper.autoplay.start();
                                 clearInterval(timer);
-                                // console.log('clearInterval')
                             }
                         }, 100);
                     } else {
@@ -1158,7 +1157,6 @@ jQuery(function ($) {
                             if ($("html").hasClass("loading-completed")) {
                                 swiper.autoplay.start();
                                 clearInterval(timer);
-                                // console.log('clearInterval')
                             }
                         }, 100);
                     } else {
@@ -1305,6 +1303,7 @@ jQuery(function ($) {
 
         if (!$("html").hasClass("header-menu-enabled")) {
             $("html").addClass("header-menu-enabled");
+            $("html, body").toggleClass("no-scroll");
             $(".header-menu-ctrl > .ctrl").toggleClass("active");
             $(".header-menu .panel-wrap .panel-body .menu li").each(function (
                 index
@@ -1325,6 +1324,7 @@ jQuery(function ($) {
             }, menuItems.length * staggerTime + initialDelay);
         } else {
             $("html").removeClass("header-menu-enabled");
+            $("html, body").toggleClass("no-scroll");
             $(".header-menu-ctrl > .ctrl").removeClass("active");
             $(".header-menu .panel-wrap .panel-body .menu li").each(
                 function () {
@@ -1368,8 +1368,35 @@ jQuery(function ($) {
         }
     }
 
+    function checkCookiePosition() {
+        var cookieHeight = $(".cky-consent-container").outerHeight();
+        var scrollPosition = $(window).scrollTop() + $(window).innerHeight();
+        var isOverDarkSection = false;
+
+        $('*[data-section="dark-bg"]').each(function () {
+            var section = $(this);
+            var sectionTop = section.offset().top;
+            var sectionBottom = sectionTop + section.outerHeight();
+
+            if (
+                scrollPosition - cookieHeight / 2 >= sectionTop &&
+                scrollPosition - cookieHeight / 2 <= sectionBottom
+            ) {
+                isOverDarkSection = true;
+            }
+        });
+
+        if (isOverDarkSection) {
+            $(".cky-consent-container").addClass("on-dark-section");
+        } else {
+            $(".cky-consent-container").removeClass("on-dark-section");
+        }
+    }
+
+    checkCookiePosition();
     checkHeaderPosition();
     $(window).on("scroll resize", checkHeaderPosition);
+    $(window).on("scroll resize", checkCookiePosition);
 });
 
 //MIXED BG SECTION HEADER COLOR

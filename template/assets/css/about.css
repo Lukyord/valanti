@@ -273,6 +273,11 @@
     user-select: none;
 }
 
+.horizontal-scroll-sc .scroll-arrows .angle {
+    cursor: pointer;
+    font-size: var(--icon-size-32);
+}
+
 .horizontal-scroll-sc .scroll-arrows > p {
     text-wrap: nowrap;
     order: -1;
@@ -310,6 +315,10 @@
         top: 90.4320987654vh;
         transform: translateX(-50%);
         grid-gap: var(--spacing-24);
+    }
+
+    .horizontal-scroll-sc .scroll-arrows .angle {
+        font-size: var(--icon-size-20);
     }
 
     .horizontal-scroll-sc .scroll-arrows > p {
@@ -647,6 +656,7 @@
 
 .horizontal-scroll-content.template-4 .center .wrapper > * {
     position: absolute;
+    z-index: 10;
 }
 
 .horizontal-scroll-content.template-4 .center .wrapper .template-title {

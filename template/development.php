@@ -63,8 +63,8 @@
             "img3" => "./assets/img/design/development-swan-lake3.jpg",
             "img4" => "./assets/img/design/development-swan-lake4.jpg",
             "img5" => "./assets/img/design/development-swan-lake5.jpg",
-            "img6" => "./assets/img/design/development-swan-lake6.jpg",
-            "img6-m" => "./assets/img/design/development-swan-lake6-m.jpg",
+            "img6" => "./assets/vdo/development-swan-lake6.mp4",
+            "img6-m" => "./assets/vdo/development-swan-lake6-m.mp4",
             "image-side" => "image-side-right",
             "template" => "type-2",
         )
@@ -77,8 +77,6 @@
 
     <section class="sc development-under-development">
         <div class="sc-inner">
-            <div class="under-dev-slide-swiper-button-prev swiper-button-prev hidden-device-sm"></div>
-            <div class="under-dev-slide-swiper-button-next swiper-button-next hidden-device-sm"></div>
             <div class="under-development">
                 <div class="title-and-description a-center">
                     <h2 class="font-heading size-h2 letter-spacing-title-md animate fadeIn">UNDER DEVELOPMENT</h2>
@@ -91,27 +89,32 @@
                             array(
                                 "title" => "SUKHUMVIT  </br >BRANDED RESIDENCES",
                                 "description" => "Unparalleled Address: Sukhumvit Branded Residence puts you at the heart of Sukhumvit's vibrant energy, offering an exclusive address coveted by discerning residents.",
-                                "bg-image" => "../../../assets/img/design/under-development1.jpg",
+                                "bg-image" => "./assets/img/design/under-development1.jpg",
+                                "bg-image-m" => "./assets/img/design/under-development1-m.jpg",
                             ),
                             array(
                                 "title" => "BANGKOK RIVERSIDE LUXURY HOTEL AND RESIDENCES",
                                 "description" => "Elegance reimagined by the river: submerge yourself in tranquility at the Luxury Hotel and Residences, where riverside delights meet refined elegance.",
-                                "bg-image" => "../../../assets/img/design/under-development2.jpg",
+                                "bg-image" => "./assets/img/design/under-development2.jpg",
+                                "bg-image-m" => "./assets/img/design/under-development2-m.jpg",
                             ),
                             array(
                                 "title" => "SUPER LUXURY HOT SPRINGS RESORT AND BRANDED RESIDENCES, CHIANG DAO",
                                 "description" => "Luxury redefined by nature: immerse yourself in wellness at the hot springs resort in Chiang Dao, where geothermal wonders meet unparalleled luxury.",
-                                "bg-image" => "../../../assets/img/design/under-development3.jpg",
+                                "bg-image" => "./assets/img/design/under-development3.jpg",
+                                "bg-image-m" => "./assets/img/design/under-development3-m.jpg",
                             ),
                             array(
                                 "title" => "BANGKOK RIVERSIDE LUXURY HOTEL AND RESIDENCES",
                                 "description" => "Elegance reimagined by the river: submerge yourself in tranquility at the Luxury Hotel and Residences, where riverside delights meet refined elegance.",
-                                "bg-image" => "../../../assets/img/design/under-development1.jpg",
+                                "bg-image" => "./assets/img/design/under-development1.jpg",
+                                "bg-image-m" => "./assets/img/design/under-development1-m.jpg",
                             ),
                             array(
                                 "title" => "SUPER LUXURY HOT SPRINGS RESORT AND BRANDED RESIDENCES, CHIANG DAO",
                                 "description" => "Luxury redefined by nature: immerse yourself in wellness at the hot springs resort in Chiang Dao, where geothermal wonders meet unparalleled luxury.",
-                                "bg-image" => "../../../assets/img/design/under-development2.jpg",
+                                "bg-image" => "./assets/img/design/under-development2.jpg",
+                                "bg-image-m" => "./assets/img/design/under-development2-m.jpg",
                             ),
                         );
 
@@ -119,9 +122,10 @@
                             include($root . "include/element-development-under-dev-slide.php");
                         }
                         ?>
-
                     </div>
                 </div>
+                <div class="under-dev-slide-swiper-button-prev swiper-button-prev hidden-device-sm"></div>
+                <div class="under-dev-slide-swiper-button-next swiper-button-next hidden-device-sm"></div>
             </div>
         </div>
     </section>

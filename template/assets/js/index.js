@@ -80,3 +80,34 @@ jQuery(function ($) {
         });
     }
 });
+
+// IMAGE BANNER 2 FLOATING TEXT
+jQuery(function ($) {
+    if ($(".index-news .title").length) {
+        function getFloatingTextLeft() {
+            var distanceFromLeft = $(".index-news .title").offset().left;
+            var floatingText = $(".image-banner-2 .sc-banner .floating-text");
+            if ($(window).width() < 1728) {
+                floatingText.css(
+                    "--image-banner2-left",
+                    `${distanceFromLeft}px`
+                );
+            } else {
+                floatingText.css(
+                    "--image-banner2-left",
+                    `min(6.3657407407vw, 110px)`
+                );
+                ("");
+            }
+        }
+
+        getFloatingTextLeft();
+
+        let lastWidth = $(window).width();
+        $(window).on("resize", function () {
+            if ($(window).width() !== lastWidth) {
+                getFloatingTextLeft();
+            }
+        });
+    }
+});

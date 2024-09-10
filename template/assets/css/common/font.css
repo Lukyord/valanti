@@ -15,6 +15,21 @@
 
 @font-face {
     font-family: "Montserrat";
+    src: url("../../font/Montserrat/Montserrat-Medium.eot");
+    src: url("../../font/Montserrat/Montserrat-Medium.eot?#iefix")
+            format("embedded-opentype"),
+        url("../../font/Montserrat/Montserrat-Medium.woff2") format("woff2"),
+        url("../../font/Montserrat/Montserrat-Medium.woff") format("woff"),
+        url("../../font/Montserrat/Montserrat-Medium.ttf") format("truetype"),
+        url("../../font/Montserrat/Montserrat-Medium.svg#Montserrat-Medium")
+            format("svg");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
     src: url("../../font/Montserrat/Montserrat-SemiBold.eot");
     src: url("../../font/Montserrat/Montserrat-SemiBold.eot?#iefix")
             format("embedded-opentype"),

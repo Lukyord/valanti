@@ -104,8 +104,8 @@ input[type="checkbox"]::before {
     transform: scale(0);
     transition: 120ms transform ease-in-out;
     transform-origin: center;
-    box-shadow: inset 1em 1em var(--color-secondary-red);
-    clip-path: polygon(16% 48%, 10% 60%, 48% 90%, 92% 20%, 80% 10%, 45% 70%);
+    box-shadow: inset 1em 1em var(--color-neutral-dark-gray);
+    /* clip-path: polygon(16% 48%, 10% 60%, 48% 90%, 92% 20%, 80% 10%, 45% 70%); */
 }
 
 input[type="checkbox"]:checked::before {

@@ -22,8 +22,8 @@
                         <h3 class="animate fadeIn size-h3 font-heading letter-spacing-title-sm"><?php echo $development_project["topic"] ?></h3>
                         <p class="animate fadeIn"><?php echo $development_project["topic-description"] ?></p>
                         <ul class="socials animate fadeIn">
-                            <li><a href="javascript:;" onclick="fbShare()" class="more-opacity-hover"><i class="ic ic-facebook"></i></a></li>
-                            <li><a href="javascript:;" onclick="tweetShare()" class="more-opacity-hover"><i class="ic ic-twitter"></i></a></li>
+                            <li><a href="javascript:;" onclick="fbShare()" class="more-opacity-hover"><i class="ic ic-facebook size-icon-20"></i></a></li>
+                            <li><a href="javascript:;" onclick="tweetShare()" class="more-opacity-hover"><i class="ic ic-twitter size-icon-20"></i></a></li>
                         </ul>
                     </div>
                     <div class="image-description hidden-device-sm">

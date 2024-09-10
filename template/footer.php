@@ -73,10 +73,10 @@
                         Bangkok Thailand 10330
                     </p>
                     <p>
-                        <a href="tel:+6629998586" class="weight-semibold animate fadeIn">+66 (0) 2 999 8586</a>
+                        <a href="tel:+6629998586" class="weight-medium animate fadeIn">+66 (0) 2 999 8586</a>
                     </p>
                     <p>
-                        <a href="mailto:info@valanti.com" class="weight-semibold animate fadeIn">info@valanti.com</a>
+                        <a href="mailto:info@valanti.com" class="weight-medium animate fadeIn">info@valanti.com</a>
                     </p>
                 </address>
                 <div class="links">

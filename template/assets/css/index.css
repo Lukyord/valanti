@@ -16,13 +16,13 @@
     height: 100%;
     background: linear-gradient(
             0deg,
-            rgba(var(--color-neutral-dark-gray-rgb), 0) 73.95%,
-            rgba(var(--color-neutral-dark-gray-rgb), 0.4) 100%
+            rgba(var(--color-black-rgb), 0) 73.95%,
+            rgba(var(--color-black-rgb), 0.7) 100%
         ),
         linear-gradient(
             180deg,
-            rgba(var(--color-neutral-dark-gray-rgb), 0) 62%,
-            rgba(var(--color-neutral-dark-gray-rgb), 0.1) 100%
+            rgba(var(--color-black-rgb), 0) 62%,
+            rgba(var(--color-black-rgb), 0.7) 100%
         );
     z-index: 5;
 }
@@ -108,9 +108,19 @@
 .index-hero .locations .text {
     width: 100%;
     color: var(--color-white);
-    text-wrap: balance;
+    text-wrap: pretty;
     text-align: center;
     width: var(--item-width);
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1366px) {
+    .index-hero .locations .image img {
+        scale: calc((var(--font-size-body) - 1px) / var(--font-size-body));
+    }
+
+    .index-hero .locations .text {
+        font-size: calc(var(--font-size-body) - 1px);
+    }
 }
 
 @media (min-width: 1440px) {
@@ -156,22 +166,14 @@
 
 /*AWARDS====================*/
 .index-awards {
-    padding: min(6.9444444444vw, var(--spacing-120)) 0;
     background-image: var(--awards-bg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.index-awards:after {
-    content: "";
-    display: block;
-    width: 90%;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    border-bottom: 0.5px solid var(--color-neutral-dark-gray);
+.index-awards .sc-inner {
+    padding-top: min(6.9444444444vw, var(--spacing-120));
 }
 
 .index-awards .awards {
@@ -179,6 +181,7 @@
     justify-content: center;
     flex-wrap: wrap;
     grid-gap: var(--spacing-40);
+    padding-bottom: min(6.9444444444vw, var(--spacing-120));
 }
 
 .index-awards .awards .award {
@@ -209,13 +212,14 @@
 }
 
 @media (max-width: 991px) {
-    .index-awards {
-        padding: min(25.641025641vw, var(--spacing-100)) 0;
+    .index-awards .sc-inner {
+        padding-top: min(25.641025641vw, var(--spacing-80));
     }
 
     .index-awards .awards {
         grid-gap: min(9.2307692308vw, var(--spacing-36))
             min(3.07692307692vw, var(--spacing-12));
+        padding-bottom: min(25.641025641vw, var(--spacing-80));
     }
 
     .index-awards .awards .award {
@@ -302,7 +306,7 @@
 
 @media (max-width: 991px) {
     .comprehensive-lifestyle {
-        padding: min(20.5128205128vw, 80px) 0;
+        padding: var(--spacing-160) 0;
     }
 
     .comprehensive-lifestyle .sc-inner .text > p {
@@ -310,13 +314,20 @@
     }
 }
 
+@media (max-width: 575px) {
+    .comprehensive-lifestyle {
+        padding: min(20.5128205128vw, 80px) 0;
+    }
+}
+
 /*IMAGE-BANNER-2====================*/
 .image-banner-2 .sc-banner .floating-text {
+    --image-banner2-left: 0px;
     width: 453px;
-    left: min(6.3657407407vw, 110px);
+    left: var(--image-banner2-left);
     bottom: min(4.9189814815vw, 85px);
-    color: var(--color-white);
     position: absolute;
+    color: var(--color-white);
     display: flex;
     flex-direction: column;
     grid-gap: var(--spacing-24);
@@ -406,7 +417,6 @@
         grid-template-rows: 58.7179487179vw 37.9487179487vw;
         width: 100%;
         height: auto;
-        background-color: black;
     }
 
     .hollistic-wellness .images img {
@@ -421,13 +431,19 @@
     .hollistic-wellness .text-wrap {
         width: 100%;
         height: auto;
-        padding: min(12.8205128205vw, var(--spacing-50)) 0;
+        padding: var(--spacing-120) 0;
     }
 
     .hollistic-wellness .text-wrap .text {
         width: 90%;
         text-align: center;
         text-wrap: pretty;
+    }
+}
+
+@media (max-width: 575px) {
+    .hollistic-wellness .text-wrap {
+        padding: min(12.8205128205vw, var(--spacing-50)) 0;
     }
 }
 

@@ -120,10 +120,10 @@
         --header-height: var(--90px);
 
         --letter-spacing-title-sm: min(0.5384615385vw, 2.1px);
-        --letter-spacing-title-md: max(1.1282051282vw, 4.4px);
-        --letter-spacing-title-des: max(0.1538461538vw, 0.6px);
-        --letter-spacing-title: max(1.1282051282vw, 4.4px);
-        --letter-spacing-title-lg: max(1.5384615385vw, 6px);
+        --letter-spacing-title-md: min(1.1282051282vw, 4.4px);
+        --letter-spacing-title-des: min(0.1538461538vw, 0.6px);
+        --letter-spacing-title: min(1.1282051282vw, 4.4px);
+        --letter-spacing-title-lg: min(1.5384615385vw, 6px);
     }
 
     .hidden-device-sm {

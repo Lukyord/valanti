@@ -33,7 +33,7 @@
                     <img src="./assets/img/design/map-mock.jpg" alt="company map">
                     <div class="pin" style="top: 25%; right: 25%">
                         <a href="#outer">
-                            <button class="button button-hyperion"><span><span>Explore in Google Maps</span></span><i class="ic ic-angle-right size-icon-32 c-gray-dark"></i></button>
+                            <button class="button button-hyperion preferred-reduced-motion"><span><span>Explore in Google Maps</span></span></button>
                         </a>
                         <div class="pin-image">
                             <img src="./assets/svg/map-pin.svg" alt="map pin">
@@ -124,7 +124,7 @@
 
                             <div class="form-footer">
                                 <a href="javascript:;" class="animate fadeIn">
-                                    <button type="submit" class="button button-hyperion"><span><span>Get in touch</span></span><i class="ic ic-angle-right size-icon-32 c-gray-dark"></i></button>
+                                    <button type="submit" class="button button-hyperion preferred-reduced-motion"><span><span>Get in touch</span></span><i class="ic ic-angle-right size-icon-32 c-gray-dark"></i></button>
                                 </a>
                                 <div class="input checkbox border-none animate fadeIn">
                                     <span class="wpcf7-form-control-wrap" data-name="terms">

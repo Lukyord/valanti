@@ -8,6 +8,35 @@
     left: 0;
 }
 
+html:not(.header-hidden) #header:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    /* background: linear-gradient(
+        0deg,
+        rgba(var(--color-white-rgb), 0) 0%,
+        rgba(var(--color-white-rgb), 1) 100%
+    ); */
+    background: linear-gradient(
+        0deg,
+        rgba(246, 244, 239, 0) 0%,
+        rgba(246, 244, 239, 1) 100%
+    );
+    /* #f6f4ef  */
+    transition: var(--duration) var(--timing-function);
+    opacity: 0;
+}
+
+html.page-scrolling #header:before {
+    opacity: 1;
+}
+
 #header.on-dark-section .header-nav .header-menu-ctrl img,
 #header.on-dark-section .header-nav .logo img,
 #header.on-dark-section .header-nav .contact a,

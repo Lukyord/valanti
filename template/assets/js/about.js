@@ -112,6 +112,7 @@ jQuery(document).ready(function ($) {
                     horizontalContents.forEach((content, index) => {
                         let section = $(content).data("timeline");
                         let sectionWidth = content.offsetWidth;
+
                         switch (section) {
                             case "old":
                                 widthOld += sectionWidth;
@@ -231,12 +232,77 @@ jQuery(document).ready(function ($) {
         let lastWidth = $(window).width();
         $(window).on("resize", function () {
             if ($(window).width() !== lastWidth) {
-                // lastWidth = $(window).width();
                 setTimeout(function () {
                     initHorizontalScroll(); // Reinitialize horizontal scroll on resize
                 }, 300);
             }
         });
+
+        // Add animation on scroll
+        function isElementInView($element) {
+            let elementLeft = $element.offset().left;
+            let elementRight = elementLeft + $element.outerWidth();
+            let elementTop = $element.offset().top;
+            let elementBottom = elementTop + $element.outerHeight();
+
+            let viewportCenterFromLeft =
+                $(window).scrollLeft() + $(window).width() * 0.2;
+            let viewportRight = $(window).width() * 0.8;
+
+            let viewportTop = $(window).scrollTop() + $(window).height() * 0.2;
+            let viewportBottom = viewportTop + $(window).height() * 0.8;
+
+            let isInHorizontalView =
+                elementRight > viewportCenterFromLeft &&
+                elementLeft < viewportRight;
+
+            let isInVerticalView =
+                elementBottom > viewportTop && elementTop < viewportBottom;
+
+            return isInVerticalView && isInHorizontalView;
+        }
+
+        function animateOnScroll() {
+            horizontalSections.forEach((horizontalSection) => {
+                let horizontalContents = $(horizontalSection).find(
+                    ".horizontal-scroll-content"
+                );
+
+                $(horizontalContents)
+                    .find(".hrz-image")
+                    .css("transform", "translateX(20px)");
+                $(horizontalContents)
+                    .find(".hrz-year, .hrz-text")
+                    .css("opacity", 0);
+
+                $(horizontalContents).each(function (index, content) {
+                    let $content = $(content);
+
+                    // Check for hrz-image visibility
+                    $content.find(".hrz-image").each(function () {
+                        if (isElementInView($(this))) {
+                            $(this).addClass("moveInRight");
+                        }
+                    });
+
+                    // Check for hrz-year visibility
+                    $content.find(".hrz-year").each(function () {
+                        if (isElementInView($(this))) {
+                            $(this).addClass("hrzFadeIn");
+                        }
+                    });
+
+                    // Check for hrz-text visibility
+                    $content.find(".hrz-text").each(function () {
+                        if (isElementInView($(this))) {
+                            $(this).addClass("hrzFadeIn");
+                        }
+                    });
+                });
+            });
+        }
+
+        $(window).on("scroll", throttle(animateOnScroll, 200));
 
         //=======================================================================================================
         // ARROW SCROLL

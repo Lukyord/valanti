@@ -22,8 +22,8 @@
                         Specializing in the production and distribution of premium bottled water, Rare Beverage Co., Ltd. is proud to introduce 6ty Degrees, the first-ever natural mineral water sourced from a 60 degrees thermal spring in Thailand, setting new standards for purity and sustainability. Rena Udomkunnatum, CEO of Rare Beverage Co., Ltd. leads the company with passion and commitment.
                     </p>
                     <div class="share animate fadeIn">
-                        <a href="javascript:;" onclick="fbShare()" class="more-opacity-hover"><i class="ic ic-facebook size-icon-lg"></i></a>
-                        <a href="javascript:;" onclick="tweetShare()" class="more-opacity-hover"><i class="ic ic-twitter size-icon-lg"></i></a>
+                        <a href="javascript:;" onclick="fbShare()" class="more-opacity-hover"><i class="ic ic-facebook size-icon-20"></i></a>
+                        <a href="javascript:;" onclick="tweetShare()" class="more-opacity-hover"><i class="ic ic-twitter size-icon-20"></i></a>
                     </div>
                 </div>
                 <div class="header-image animate fadeIn">

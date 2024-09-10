@@ -44,7 +44,7 @@
     --color-neutral-mid-gray: #66625e;
     --color-neutral-mid-gray-rgb: 102, 98, 94;
     --color-neutral-light-gray: #f0eeea;
-    --color-neutral-light-gray-rgb: 40, 238, 234;
+    --color-neutral-light-gray-rgb: 240, 238, 234;
     --color-secondary-red: #c93c00;
     --color-secondary-red-rgb: 201, 60, 0;
     --color-secondary-violet: #221c34;
@@ -169,6 +169,10 @@
 }
 
 /*FIX====================*/
+.no-scroll {
+    height: 100%;
+    overflow: hidden !important;
+}
 /* SITE */
 
 /* GENERAL */
@@ -257,6 +261,10 @@
 }
 .overflow-visible {
     overflow: visible !important;
+}
+
+.opacity-03 {
+    opacity: 0.3 !important;
 }
 
 .opacity-05 {
@@ -950,6 +958,10 @@ strong {
     font-size: var(--icon-size-16) !important;
 }
 
+.size-icon-20 {
+    font-size: var(--icon-size-20) !important;
+}
+
 .size-icon-26 {
     font-size: var(--icon-size-26) !important;
 }
@@ -1140,7 +1152,7 @@ a:hover {
     color: rgba(var(--rgb), 1) !important;
     background: none !important;
     border: none !important;
-    border-radius: 50vw !important;
+    border-radius: 0 !important;
     overflow: hidden;
     font-family: var(--font-body);
     font-weight: var(--font-weight-semibold);
@@ -1177,11 +1189,36 @@ a:hover {
     mix-blend-mode: difference;
 }
 
-html.no-touchevents .button.button-hyperion > span > span {
+html.no-touchevents
+    .button.button-hyperion.preferred-reduced-motion
+    span:after {
+    content: "";
+    width: 0;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: var(--color-neutral-dark-gray);
+    transition: var(--duration) var(--timing-function);
+}
+
+html.no-touchevents
+    .button.button-hyperion.preferred-reduced-motion:hover
+    span:after {
+    width: 100%;
+}
+
+html.no-touchevents
+    .button.button-hyperion:not(.preferred-reduced-motion)
+    > span
+    > span {
     animation: MoveDownInitial 0.2s forwards, MoveDownEnd 0.2s forwards 0.2s;
 }
 
-html.no-touchevents .button.button-hyperion:hover > span > span {
+html.no-touchevents
+    .button.button-hyperion:not(.preferred-reduced-motion):hover
+    > span
+    > span {
     animation: MoveUpInitial 0.2s forwards, MoveUpEnd 0.2s forwards 0.2s;
 }
 
@@ -1189,7 +1226,7 @@ html.no-touchevents .button.button-hyperion:hover > span > span {
     transition: var(--duration) var(--timing-function);
 }
 
-.button.button-hyperion:hover > i {
+.button.button-hyperion:not(.preferred-reduced-motion):hover > i {
     transform: translate3d(25%, 0, 0);
 }
 
@@ -1492,7 +1529,7 @@ html.no-touchevents .button.button-hyperion:hover > span > span {
 }
 
 .entry-content .wp-block-columns {
-    grid-gap: var(--spacing-40) !important;
+    grid-gap: var(--spacing-60) !important;
 }
 
 .entry-content .wp-block-columns:not(:first-of-type) {
@@ -1514,13 +1551,19 @@ html.no-touchevents .button.button-hyperion:hover > span > span {
     }
 
     .entry-content .wp-block-columns .wp-block-column {
-        width: calc((100% - var(--spacing-40)) / 2) !important;
+        width: calc((100% - var(--spacing-60)) / 2) !important;
         flex-grow: unset !important;
         flex-basis: unset !important;
     }
 
     .entry-content .wp-block-columns .wp-block-column:empty {
         display: none !important;
+    }
+}
+
+@media (min-width: 782px) and (max-width: 1200px) and (orientation: landscape) {
+    .entry-content .wp-block-columns {
+        flex-wrap: nowrap !important;
     }
 }
 
@@ -1542,6 +1585,10 @@ html.no-touchevents .button.button-hyperion:hover > span > span {
 
     .entry-content .wp-block-columns .wp-block-column:empty {
         display: none !important;
+    }
+
+    .entry-content .wp-block-columns {
+        grid-gap: var(--spacing-40) !important;
     }
 
     .entry-content .wp-block-columns:not(:first-child) {
@@ -2852,11 +2899,11 @@ img.mfp-img {
 }
 .swiper-button-prev:after {
     content: "\e905";
-    transform: translateX(-50%);
+    transform: translateX(0);
 }
 .swiper-button-next:after {
     content: "\e906";
-    transform: translateX(50%);
+    transform: translateX(0);
 }
 .swiper-button-disabled {
     opacity: var(--opacity-light) !important;
@@ -3495,6 +3542,54 @@ img.mfp-img {
     animation-delay: 0.1s;
 }
 
+@-webkit-keyframes moveInRight {
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes moveInRight {
+    to {
+        transform: translateX(0);
+    }
+}
+
+.moveInRight {
+    transition: all 0.8s 0s ease;
+    -webkit-animation-name: moveInRight;
+    animation-name: moveInRight;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes hrzFadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes hrzFadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.hrzFadeIn {
+    transition: all 0.8s 0s ease;
+    -webkit-animation-name: hrzFadeIn;
+    animation-name: hrzFadeIn;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
 @-webkit-keyframes fadeInUp {
     from {
         opacity: 0;
@@ -3515,10 +3610,6 @@ img.mfp-img {
         transform: scale(1, 1) translate(-0%, 0%);
     }
 }
-.fadeInUp {
-    transition: all 0.8s 0s ease;
-}
-
 .fadeInUp {
     transition: all 0.8s 0s ease;
 }

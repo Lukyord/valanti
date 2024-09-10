@@ -198,12 +198,17 @@
     --swiper-height: 0;
 }
 
+.under-development {
+    position: relative;
+}
+
 .under-development .title-and-description > p {
     margin-top: min(0.9259259259vw, var(--spacing-16));
 }
 
 .under-development .swiper {
     --slide-width: 33.33%;
+    width: calc(100% - (var(--icon-size-32) + var(--spacing-40)) * 2);
 }
 
 .under-development .swiper .swiper-slide {
@@ -212,6 +217,7 @@
 
 .under-development .swiper .swiper-slide.with-bg {
     padding: 0 var(--spacing-12);
+    position: relative;
 }
 
 .under-development .swiper .swiper-slide .location {
@@ -224,9 +230,44 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: var(--location-bg);
-    background-size: cover;
-    background-position: center;
+    position: relative;
+}
+
+.under-development .swiper .swiper-slide.with-bg .location:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(
+        180deg,
+        rgba(240, 238, 234, 0) 39.69%,
+        rgba(240, 238, 234, 0.7) 100%
+    );
+    z-index: 5;
+}
+
+.under-development .swiper .swiper-slide.with-bg .bg-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.15;
+    z-index: 1;
+}
+
+.under-development .swiper .swiper-slide.with-bg .bg-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.under-development .swiper .swiper-slide.with-bg .location .content {
+    position: relative;
+    z-index: 10;
 }
 
 *[class*="-under-development"] *[class*="swiper-button-"] {
@@ -234,11 +275,11 @@
 }
 
 *[class*="-under-development"] .swiper-button-next {
-    right: 2.5%;
+    right: 0;
 }
 
 *[class*="-under-development"] .swiper-button-prev {
-    left: 2.5%;
+    left: 0;
 }
 
 @media (max-width: 991px) {
@@ -252,6 +293,7 @@
 
     .under-development .swiper {
         --slide-width: 50%;
+        width: 100% !important;
     }
 
     .under-development .swiper.pc-only {
@@ -278,6 +320,15 @@
 
     .under-development .swiper .swiper-slide .location {
         padding: 0 10.3746397695%;
+    }
+}
+
+@media (min-width: 575px) and (max-width: 991px) and (orientation: portrait) {
+    .development-under-development {
+        padding-top: var(--spacing-100) !important;
+    }
+    .development-under-development .title-and-description {
+        margin-bottom: var(--spacing-80) !important;
     }
 }
 

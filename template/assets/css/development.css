@@ -105,14 +105,22 @@
     object-position: center;
 }
 
+@media only screen and (min-device-width: 768px) and (max-device-width: 1366px) and (orientation: landscape) {
+    .development-template.image-side-right .body .main-content {
+        width: 95%;
+        margin: 0 auto;
+        font-size: calc(var(--font-size-body) - 1px);
+    }
+}
+
 /* TEMPLATE TYPE */
 .development-template .main-content .grid-images {
     flex: 1;
     display: grid;
     height: fit-content;
     grid-gap: var(--spacing-10);
-    position: sticky;
-    top: calc(var(--header-height) + var(--spacing-6));
+    /* position: sticky;
+    top: calc(var(--header-height) + var(--spacing-6)); */
 }
 /* TYPE 1 */
 .development-template.type-1 .main-content .grid-images {
@@ -137,6 +145,27 @@
 
 .development-template .body .footer-banner {
     height: 506px;
+    position: relative;
+}
+
+.development-template .body .footer-banner:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+            0deg,
+            rgba(var(--color-black-rgb), 0) 73.95%,
+            rgba(var(--color-black-rgb), 0.7) 100%
+        ),
+        linear-gradient(
+            180deg,
+            rgba(var(--color-black-rgb), 0) 62%,
+            rgba(var(--color-black-rgb), 0.7) 100%
+        );
+    z-index: 5;
 }
 
 .development-template .body .footer-banner *:is(img, video, iframe) {
@@ -159,6 +188,10 @@
 @media (max-width: 991px) {
     .development-template .sc-inner {
         padding-bottom: var(--spacing-40);
+    }
+
+    .development .development-template:nth-child(2) .heading {
+        padding-top: var(--spacing-80);
     }
 
     .development-template .heading {
@@ -201,6 +234,10 @@
         text-align: center;
     }
 
+    .development-template .main-content .text-content .text p {
+        margin-top: var(--spacing-24);
+    }
+
     .development-template .main-content .text-content .text ul {
         justify-content: center;
         margin-top: var(--spacing-40);
@@ -224,5 +261,26 @@
     .development-under-development {
         padding-top: var(--spacing-80);
         padding-bottom: 0;
+    }
+}
+
+@media (min-width: 575px) and (max-width: 991px) and (orientation: portrait) {
+    .development-template .sc-inner {
+        padding-bottom: var(--spacing-80);
+    }
+
+    .development-template .heading {
+        padding: var(--spacing-80) 0;
+    }
+
+    .development-template .body {
+        grid-gap: var(--spacing-80);
+    }
+
+    .development-template:is(.image-side-right, .image-side-left)
+        .body
+        .main-content {
+        flex-direction: column;
+        grid-gap: var(--spacing-80);
     }
 }
