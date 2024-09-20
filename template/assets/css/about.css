@@ -228,7 +228,7 @@
 
 /* HORIZONTAL SCROLL SECTION */
 .horizontal-scroll-sc {
-    --line-top-position: 45%;
+    --line-top-position: 50%;
     --section-gap: min(14.7569444444vw, 250px);
     --margin-left: 0;
     --margin-right: 0;
@@ -353,6 +353,16 @@
     .horizontal-scroll-content > * {
         transform: scale(0.9);
         transform-origin: top left;
+    }
+}
+
+@media (max-height: 768px) {
+    .horizontal-scroll-sc {
+        --line-top-position: 55%;
+    }
+
+    .horizontal-scroll-content > * {
+        transform: scale(0.8);
     }
 }
 

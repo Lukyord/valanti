@@ -83,10 +83,10 @@
 
     <div class="screen-width">
         <section class="horizontal-scroll-sc">
-            <div class="scroll-arrows animate fadeIn">
-                <span class="angle angle-left"><i class="ic ic-angle-left opacity-03"></i></span>
+            <div class="scroll-arrows">
+                <span class="angle angle-left scroll-up-left-arrow opacity-03"><i class="ic ic-angle-left"></i></span>
                 <p class="opacity-03">Scroll to continue</p>
-                <span class="angle angle-right"><i class="ic ic-angle-right"></i></span>
+                <span class="angle angle-right scroll-down-right-arrow"><i class="ic ic-angle-right"></i></span>
             </div>
             <div class="title old active animate fadeIn">
                 <h2 class="size-h2 font-heading letter-spacing-title-md">OUR STORY</h2>

@@ -37,6 +37,9 @@
                 </div>
             </div>
             <div class="footer-banner animate fadeIn">
+                <div class="link">
+                    <a href="<?php echo $development_project["link"] ?>" target="_blank"><?php echo $development_project["link-name"] ?></a>
+                </div>
                 <?php
                 $cover = $development_project["img6"];
                 $cover_m = isset($development_project["img6-m"]) ? $development_project["img6-m"] : '';
@@ -49,8 +52,8 @@
                     <iframe
                         id="<?php echo $development_project["project-name"] ?>-iframe"
                         title="?php echo $development_project['project-name'] ?> video link"
-                        src="<?php echo $cover; ?>&autoplay=1&mute=1">
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        src="<?php echo $cover; ?>&autoplay=1&mute=1&controls=0&rel=0&loop=1">
+                        allow="accelerometer; autoplay; modestbranding; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
                     </iframe>
                 <?php } elseif (preg_match("/\.(png|jpg|jpeg|gif)$/", $cover)) { ?>

@@ -78,7 +78,7 @@
 }
 
 .footer-nav .links-and-detail {
-    width: 34.8958333333%;
+    width: 40.8958333333%;
     border-left: 0.5px solid rgba(var(--color-neutral-mid-gray-rgb), 0.6);
 }
 
@@ -105,7 +105,7 @@
 .links-and-detail .links {
     display: flex;
     justify-content: space-between;
-    grid-gap: min(5.2430555556vw, 177px);
+    grid-gap: var(--spacing-12);
 }
 
 .links-and-detail .links .pages {
@@ -125,6 +125,12 @@
     grid-gap: min(0.9259259259vw, var(--spacing-16));
     font-size: 14px;
     line-height: 1;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1366px) and (orientation: landscape) {
+    .footer-nav .logos {
+        padding-right: 0;
+    }
 }
 
 @media (max-width: 991px) {

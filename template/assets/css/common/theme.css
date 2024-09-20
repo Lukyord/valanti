@@ -3787,3 +3787,8 @@ html.touchevents a {
         text-align: center;
     }
 }
+
+/*FIX-SOCIAL-ICON====================*/
+.socials .ic {
+    padding: 1px;
+}

@@ -27,10 +27,13 @@
             "img3" => "./assets/img/design/development-rosewood3.jpg",
             "img4" => "./assets/img/design/development-rosewood4.jpg",
             "img5" => "./assets/img/design/development-rosewood5.jpg",
-            "img6" => "./assets/vdo/development-rosewood6.mp4",
+            // "img6" => "./assets/vdo/development-rosewood6.mp4",
+            "img6" => "https://www.youtube.com/embed/o-llwv4pLrg?si=_DEm2DX_4sFrpL_n",
             "img6-m" => "./assets/vdo/development-rosewood6-m.mp4",
             "image-side" => "image-side-right",
             "template" => "type-1",
+            "link" => "https://www.rosewoodhotels.com/en/luang-prabang",
+            "link-name" => "rosewoodhotels.com/en/luang-prabang"
         ),
         array(
             "project-name" => "intercontinental",
@@ -49,6 +52,8 @@
             "img6-m" => "./assets/vdo/development-intercontinental6-m.mp4",
             "image-side" => "image-side-left",
             "template" => "type-1",
+            "link" => "khaoyai.intercontinental.com",
+            "link-name" => "khaoyai.intercontinental.com"
         ),
         array(
             "project-name" => "swan-lake",
@@ -67,6 +72,8 @@
             "img6-m" => "./assets/vdo/development-swan-lake6-m.mp4",
             "image-side" => "image-side-right",
             "template" => "type-2",
+            "link" => "https://www.swanlakekhao-yai.com/",
+            "link-name" => "swanlakeresidences.com"
         )
     );
 

@@ -60,6 +60,8 @@ jQuery(document).ready(function ($) {
 
     if ($(".horizontal-scroll-sc").length) {
         let horizontalSections = gsap.utils.toArray(".horizontal-scroll-sc");
+        let leftArrowScrollUp = $(".scroll-up-left-arrow");
+        let rightArrowScrollDown = $(".scroll-down-right-arrow");
 
         function initHorizontalScroll() {
             horizontalSections.forEach((horizontalSection) => {
@@ -164,6 +166,21 @@ jQuery(document).ready(function ($) {
                             end: () => `+=${maxWidth}`,
                             onUpdate: (self) => {
                                 let progress = self.progress;
+
+                                if (progress <= 0) {
+                                    leftArrowScrollUp.addClass("opacity-03");
+                                } else {
+                                    leftArrowScrollUp.removeClass("opacity-03");
+                                }
+
+                                if (progress >= 1) {
+                                    rightArrowScrollDown.addClass("opacity-03");
+                                } else {
+                                    rightArrowScrollDown.removeClass(
+                                        "opacity-03"
+                                    );
+                                }
+
                                 if (progress > 0 && progress < 1) {
                                     arrowsPanel.addClass("visible");
                                     $(horizontalSections).addClass(

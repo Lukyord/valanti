@@ -166,6 +166,7 @@
             rgba(var(--color-black-rgb), 0.7) 100%
         );
     z-index: 5;
+    pointer-events: none;
 }
 
 .development-template .body .footer-banner *:is(img, video, iframe) {
@@ -173,6 +174,19 @@
     height: 100%;
     object-fit: cover;
     object-position: center;
+}
+
+.development-template .body .footer-banner .link {
+    position: absolute;
+    bottom: var(--spacing-50);
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    text-align: center;
+    color: var(--color-white);
+    width: 100%;
+    max-width: 100%;
+    padding: 0 var(--spacing-20);
 }
 
 /*DEVELOPMENT UNDER DEVELOPMENT====================*/
@@ -241,6 +255,10 @@
     .development-template .main-content .text-content .text ul {
         justify-content: center;
         margin-top: var(--spacing-40);
+    }
+
+    .development-template .body .footer-banner .link {
+        bottom: var(--spacing-20);
     }
 
     /* TEMPLATE TYPE */

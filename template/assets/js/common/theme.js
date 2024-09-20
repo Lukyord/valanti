@@ -259,14 +259,14 @@ jQuery(function ($) {
         select.closest(".select").addClass("select2-parent");
         select2fixed.closest(".select").addClass("select2-parent");
 
-        if (
-            /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-                navigator.userAgent
-            )
-        ) {
-            select.select2("destroy");
-            select.closest(".select").removeClass("select2-parent");
-        }
+        // if (
+        //     /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+        //         navigator.userAgent
+        //     )
+        // ) {
+        //     select.select2("destroy");
+        //     select.closest(".select").removeClass("select2-parent");
+        // }
 
         $(this)
             .find("select")
