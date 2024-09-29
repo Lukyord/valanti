@@ -101,7 +101,7 @@
                 <p>Pioneering new horizons and shaping tomorrow.</p>
             </div>
             <div class="horizontal-scroll-content template-1" data-timeline="old">
-                <div class="left-side" style="animation-delay: 1s;">
+                <div class="center" style="animation-delay: 1s;">
                     <div class="wrapper">
                         <p class="hrz-text">
                             Founded as a land bank, ran by the<br>
@@ -120,7 +120,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="right-side">
+            </div>
+            <div class="horizontal-scroll-content template-2" data-timeline="old">
+                <div class="wrapper">
                     <div class="images" style="animation-delay: 0.7s;">
                         <div class="content-image">
                             <img src="./assets/img/design/template1-image4.jpg" alt="template1 image4" class="hrz-image">
@@ -137,7 +139,7 @@
                     </div>
                 </div>
             </div>
-            <div class="horizontal-scroll-content template-2" data-timeline="recent">
+            <div class="horizontal-scroll-content template-3" data-timeline="recent">
                 <div class="center">
                     <div class="wrapper">
                         <h1 class="size-h1 font-heading letter-spacing-title hrz-year">2017</h1>
@@ -147,52 +149,62 @@
                         <div class="content-image">
                             <img src="./assets/img/design/template2-image2.jpg" alt="template2 image2" class="hrz-image">
                         </div>
-                        <p class="hrz-text">Unveiled <strong>Rosewood Luang Prabang:</strong> A serene luxury retreat that harmoniously blends rich cultural heritage with breathtaking natural beauty.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="horizontal-scroll-content template-3" data-timeline="recent">
-                <div class="center">
-                    <div class="wrapper">
-                        <div class="content-image">
-                            <img src="./assets/img/design/template3-image1.jpg" alt="template3 image1" class="hrz-image">
-                            <h1 class="size-h1 font-heading letter-spacing-title" class="hrz-year">2020</h1>
+                        <div class="hrz-text description">
+                            <p>Unveiled <strong>Rosewood Luang Prabang:</strong> A serene luxury retreat that harmoniously blends rich cultural heritage with breathtaking natural beauty.</p>
                         </div>
-                        <p class="hrz-text">Elysian Development partners with IHG to manage the 61-room <strong>InterContinental Khao Yai</strong> resort, elevating luxury hospitality in a stunning natural setting.</p>
                     </div>
                 </div>
             </div>
             <div class="horizontal-scroll-content template-4" data-timeline="recent">
                 <div class="center">
                     <div class="wrapper">
-                        <p class="hrz-text">Collaborated with award-winning architect and designer <strong>Bill Bensley</strong> on this one-of-a-kind destination.
-                            <br><br>
-                            Bill has also designed our award-winning <strong>Rosewood Luang Prabang</strong> property.
-                        </p>
-                        <div class="template-title">
-                            <h1 class="size-h1 font-heading letter-spacing-title hrz-year">2022</h1>
-                            <p class="hrz-text">Launch of <strong>InterContinental Khao Yai</strong> - a luxurious 61-room resort that combines modern elegance with the serene beauty of the Khao Yai landscape.</p>
-                        </div>
-                        <p class="hrz-text">Turning abandoned train cars procured from across Thailand into luxury suites.</p>
                         <div class="content-image">
-                            <img src="./assets/img/design/template4-image1.jpg" alt="template4 image1" class="hrz-image">
+                            <img src="./assets/img/design/template3-image1.jpg" alt="template3 image1" class="hrz-image">
+                            <h1 class="size-h1 font-heading letter-spacing-title" class="hrz-year">2020</h1>
                         </div>
-                        <div class="content-image">
-                            <img src="./assets/img/design/template4-image2.jpg" alt="template4 image2" class="hrz-image">
-                        </div>
-                        <div class="content-image">
-                            <img src="./assets/img/design/template4-image3.jpg" alt="template4 image3" class="hrz-image">
-                        </div>
-                        <div class="content-image">
-                            <img src="./assets/img/design/template4-image4.jpg" alt="template4 image4" class="hrz-image">
-                        </div>
-                        <div class="content-image">
-                            <img src="./assets/img/design/template4-image5.jpg" alt="template4 image5" class="hrz-image">
+                        <div class="description hrz-text">
+                            <p>Elysian Development partners with IHG to manage the 61-room <strong>InterContinental Khao Yai</strong> resort, elevating luxury hospitality in a stunning natural setting.</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="horizontal-scroll-content template-5" data-timeline="recent">
+                <div class="center">
+                    <div class="wrapper">
+                        <div class="description1 hrz-text">
+                            <p>Collaborated with award-winning architect and designer <strong>Bill Bensley</strong> on this one-of-a-kind destination.
+                                <br><br>
+                                Bill has also designed our award-winning <strong>Rosewood Luang Prabang</strong> property.
+                            </p>
+                        </div>
+                        <div class="template-title">
+                            <h1 class="size-h1 font-heading letter-spacing-title hrz-year">2022</h1>
+                            <div class="description grz-text">
+                                <p>Launch of <strong>InterContinental Khao Yai</strong> - a luxurious 61-room resort that combines modern elegance with the serene beauty of the Khao Yai landscape.</p>
+                            </div>
+                        </div>
+                        <div class="hrz-text description2">
+                            <p>Turning abandoned train cars procured from across Thailand into luxury suites.</p>
+                        </div>
+                        <div class="content-image-1">
+                            <img src="./assets/img/design/template4-image1.jpg" alt="template4 image1" class="hrz-image">
+                        </div>
+                        <div class="content-image-2">
+                            <img src="./assets/img/design/template4-image2.jpg" alt="template4 image2" class="hrz-image">
+                        </div>
+                        <div class="content-image-3">
+                            <img src="./assets/img/design/template4-image3.jpg" alt="template4 image3" class="hrz-image">
+                        </div>
+                        <div class="content-image-4">
+                            <img src="./assets/img/design/template4-image4.jpg" alt="template4 image4" class="hrz-image">
+                        </div>
+                        <div class="content-image-5">
+                            <img src="./assets/img/design/template4-image5.jpg" alt="template4 image5" class="hrz-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="horizontal-scroll-content template-6" data-timeline="recent">
                 <div class="center">
                     <div class="wrapper">
                         <div class="logos-flex">
@@ -202,24 +214,32 @@
                             <img src="./assets/img/design/timeline-awards.png" alt="timeline-awards" class="hrz-image">
                         </div>
                         <h1 class="size-h1 font-heading letter-spacing-title hrz-year">2021 - 2024</h1>
-                        <p class="hrz-text">Celebrating Excellence: Rosewood Luang Prabang named <strong>No.1 Best Hotel in Asia 2021 by Condé Nast Traveler</strong>, Swan Lake Residences Khao Yai awarded <strong>Best Green Development at Dot Property Southeast Asia Awards 2022</strong>, and InterContinental Khao Yai acclaimed in <strong>Condé Nast Traveler's The Hot List 2023</strong> and <strong>Travel+Leisure's Luxury Awards 2024.</strong></p>
+                        <div class="hrz-text description">
+                            <p>Celebrating Excellence: Rosewood Luang Prabang named <strong>No.1 Best Hotel in Asia 2021 by Condé Nast Traveler</strong>, Swan Lake Residences Khao Yai awarded <strong>Best Green Development at Dot Property Southeast Asia Awards 2022</strong>, and InterContinental Khao Yai acclaimed in <strong>Condé Nast Traveler's The Hot List 2023</strong> and <strong>Travel+Leisure's Luxury Awards 2024.</strong></p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="horizontal-scroll-content template-6" data-timeline="present">
-                <div class="left-side">
+            <div class="horizontal-scroll-content template-7" data-timeline="present">
+                <div class="wrapper">
                     <div class="image">
                         <img src="./assets/img/design/template6-image1.jpg" alt="template6 image1" class="hrz-image">
                         <h1 class="size-h1 font-heading letter-spacing-title c-white hrz-year">2024</h1>
                     </div>
-                    <p class="hrz-text"><strong>Mr. Stephane Michel</strong> joins the leadership team at Elysian Development as <strong>President.</strong></p>
+                    <div class="description hrz-text">
+                        <strong>Mr. Stephane Michel</strong> joins the leadership team at Elysian Development as <strong>President.</strong>
+                    </div>
                 </div>
-                <div class="right-side">
+            </div>
+            <div class="horizontal-scroll-content template-8" data-timeline="present">
+                <div class="wrapper">
                     <div class="image">
                         <img src="./assets/img/design/template6-image2.jpg" alt="template6 image2" class="hrz-image">
                         <h1 class="size-h1 font-heading letter-spacing-title hrz-year">2024</h1>
                     </div>
-                    <p class="hrz-text">Launch of <strong>Sukhumvit Branded Residences</strong> - situated in the heart of Sukhumvit's vibrant energy, offering an exclusive address coveted by discerning residents.</p>
+                    <div class="hrz-text">
+                        <p>Launch of <strong>Sukhumvit Branded Residences</strong> - situated in the heart of Sukhumvit's vibrant energy, offering an exclusive address coveted by discerning residents.</p>
+                    </div>
                 </div>
             </div>
         </section>

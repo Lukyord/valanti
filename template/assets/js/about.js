@@ -46,6 +46,16 @@ jQuery(document).ready(function ($) {
                 "--margin-right": totalMarginRight + "px",
                 "--arrow-panel-width": arrowPanelWidth + "px",
             });
+
+            // Add margin to the first .horizontal-scroll-content element
+            $(".horizontal-scroll-content")
+                .first()
+                .css("margin-left", "var(--margin-left)");
+
+            // Add margin to the last .horizontal-scroll-content element
+            $(".horizontal-scroll-content")
+                .last()
+                .css("margin-right", "var(--margin-right)");
         }
     }
 

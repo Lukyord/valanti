@@ -22,6 +22,7 @@
                         "description" => "The winners showcase the best in high-end travel, as chosen by Travel + Leisure Southeast Asia, Hong Kong, and Macau's readers.",
                         "press" => "Prestige Thailand",
                         "date" => "June 2024",
+                        "extra-class" => "highlight"
 
                     ),
                     array(
@@ -31,6 +32,7 @@
                         "description" => "A select few individuals undergird the luxury landscape. Like mighty Atlas bearing the globe, each of these exemplars supports a portion of the gilded world, fostering its bounty and excellence.",
                         "press" => "Robb Report Thailand",
                         "date" => "May 2023",
+                        "extra-class" => "sticky"
                     ),
                     array(
                         "image" => "./assets/img/design/news3.jpg",
@@ -39,7 +41,7 @@
                         "description" => "Based in Bangkok, Thailand, Elysian Development Co., Ltd. is recognized for its dedication to outstanding quality and savoir-faire within the luxury hospitality industry.",
                         "press" => "Robb Report Thailand",
                         "date" => "April 2022",
-
+                        "extra-class" => "highlight"
                     ),
                     array(
                         "image" => "./assets/img/design/news4.jpg",
@@ -47,6 +49,7 @@
                         "description" => "Rosewood Luang Prabang has been recognized as one of the best new resorts in the world by leading travel magazines and organizations.",
                         "press" => "Condé Nast Traveler",
                         "date" => "October 2021",
+                        "extra-class" => "highlight"
                     ),
                 );
 

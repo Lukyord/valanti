@@ -1,4 +1,4 @@
-<div class="news-card animate fadeIn">
+<div class="news-card animate fadeIn <?php if (isset($news['extra-class']) && !empty($news['extra-class'])) echo $news['extra-class']; ?>">
     <a class="link-overlay" href="<?php echo $root; ?>news-single.php">&nbsp;</a>
     <div class="news-image">
         <img src="<?php echo $news["image"] ?>" alt="<?php echo $news["title"] ?>">
