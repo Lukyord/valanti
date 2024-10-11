@@ -974,7 +974,7 @@
 .horizontal-scroll-content.template-8 {
     width: 28.7037037037vw;
     height: 100%;
-    --align-top: calc(var(--line-top-position) - 7.349537037vw);
+    --align-top: calc(var(--line-top-position) - 11vw);
 }
 
 .horizontal-scroll-content.template-8 .wrapper {

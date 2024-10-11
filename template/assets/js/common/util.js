@@ -1,3 +1,25 @@
+// ON WINDOW RESIZE CALLBACK =============================
+function onWindowResize(callback, delay = 300) {
+    let lastWidth = $(window).width();
+    let resizeTimeout;
+
+    $(window).on("resize", function () {
+        const newWidth = $(window).width();
+
+        if (newWidth !== lastWidth) {
+            lastWidth = newWidth;
+
+            clearTimeout(resizeTimeout);
+
+            resizeTimeout = setTimeout(() => {
+                if (typeof callback === "function") {
+                    callback();
+                }
+            }, delay);
+        }
+    });
+}
+
 // THROTTLE ============================
 // usage -> document
 //     .querySelector(".work")
